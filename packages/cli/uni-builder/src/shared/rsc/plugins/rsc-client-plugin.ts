@@ -35,10 +35,10 @@ export class RscClientPlugin {
 
   apply(compiler: Webpack.Compiler): void {
     const {
-      AsyncDependenciesBlock,
+      // AsyncDependenciesBlock,
       RuntimeGlobals,
       WebpackError,
-      dependencies: { ModuleDependency, NullDependency },
+      // dependencies: { ModuleDependency, NullDependency },
       sources: { RawSource },
     } = compiler.webpack;
 

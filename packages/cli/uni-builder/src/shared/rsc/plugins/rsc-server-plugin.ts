@@ -38,12 +38,12 @@ export class RscServerPlugin {
     const {
       EntryPlugin,
       WebpackError,
-      dependencies: { NullDependency },
-      util: {
-        runtime: { getEntryRuntime },
-      },
+      // dependencies: { NullDependency },
+      // util: {
+      //   runtime: { getEntryRuntime },
+      // },
       sources: { RawSource },
-      RuntimeGlobals,
+      // RuntimeGlobals,
     } = compiler.webpack;
 
     const includeModule = async (
@@ -111,7 +111,7 @@ export class RscServerPlugin {
       });
     };
 
-    let needsAdditionalPass = false;
+    // let needsAdditionalPass = false;
 
     compiler.hooks.finishMake.tapPromise(
       RscServerPlugin.name,
@@ -189,15 +189,15 @@ export class RscServerPlugin {
           ...this.serverReferencesMap.keys(),
         ];
 
-        if (
-          referencesBefore.length !== referencesAfter.length ||
-          (!referencesAfter.every(reference =>
-            referencesBefore.includes(reference),
-          ) &&
-            hasChangeReference)
-        ) {
-          needsAdditionalPass = true;
-        }
+        // if (
+        //   referencesBefore.length !== referencesAfter.length ||
+        //   (!referencesAfter.every(reference =>
+        //     referencesBefore.includes(reference),
+        //   ) &&
+        //     hasChangeReference)
+        // ) {
+        //   needsAdditionalPass = true;
+        // }
       },
     );
 
@@ -220,10 +220,10 @@ export class RscServerPlugin {
           }
         });
 
-        compilation.hooks.needAdditionalPass.tap(
-          RscServerPlugin.name,
-          () => !(needsAdditionalPass = !needsAdditionalPass),
-        );
+        // compilation.hooks.needAdditionalPass.tap(
+        //   RscServerPlugin.name,
+        //   () => !(needsAdditionalPass = !needsAdditionalPass),
+        // );
 
         compilation.hooks.afterOptimizeModuleIds.tap(
           RscServerPlugin.name,
