@@ -7,6 +7,7 @@ import {
   getRscBuildInfo,
   sharedData,
 } from '../common';
+import { EntryPlugin } from 'webpack';
 
 export interface RscClientPluginOptions {
   readonly clientManifestFilename?: string;
@@ -19,6 +20,8 @@ export class RscClientPlugin {
   private clientManifestFilename: string;
   private ssrManifestFilename: string;
   private styles?: Set<string>;
+
+  private dependencies: any[] = [];
 
   constructor(options: RscClientPluginOptions) {
     this.clientManifestFilename =
@@ -86,19 +89,20 @@ export class RscClientPlugin {
       return compilation.moduleGraph.getResolvedModule(entryDependency);
     };
 
-    const addClientReferencesChunks = (entryModule: Webpack.Module) => {
+    const addClientReferencesChunks = (compilation: Webpack.Compilation, entryModule: Webpack.Module, callback: (err: any | null) => void) => {
       [...this.clientReferencesMap.keys()].forEach((resourcePath, index) => {
-        const chunkName = `client${index}`;
-
-        const block = new AsyncDependenciesBlock(
-          { name: chunkName },
-          undefined,
-          resourcePath,
+        const dependency = EntryPlugin.createDependency(resourcePath, {
+          name: resourcePath,
+        });
+        compilation.addInclude(
+          compiler.context,
+          dependency,
+          { name: `client${index}` },
+          (error, module) => {
+            this.dependencies.push(dependency);
+            callback(error);
+          }
         );
-
-        block.addDependency(new ClientReferenceDependency(resourcePath));
-
-        entryModule.addBlock(block);
       });
 
       if (this.styles && this.styles.size > 0) {
@@ -109,7 +113,7 @@ export class RscClientPlugin {
       }
     };
 
-    compiler.hooks.finishMake.tap(RscClientPlugin.name, compilation => {
+    compiler.hooks.finishMake.tapAsync(RscClientPlugin.name, (compilation, callback) => {
       if (compiler.watchMode) {
         const entryModule = getEntryModule(compilation);
 
@@ -123,7 +127,7 @@ export class RscClientPlugin {
             ),
           );
 
-          addClientReferencesChunks(entryModule);
+          addClientReferencesChunks(compilation, entryModule, callback);
         }
       }
     });
@@ -144,30 +148,16 @@ export class RscClientPlugin {
           new NullDependency.Template(),
         );
 
-        const onNormalModuleFactoryParser = (
-          parser: Webpack.javascript.JavascriptParser,
-        ) => {
-          compilation.assetsInfo;
-          parser.hooks.program.tap(RscClientPlugin.name, () => {
-            const entryModule = getEntryModule(compilation);
-
-            if (entryModule === parser.state.module) {
-              addClientReferencesChunks(entryModule);
+        compilation.hooks.finishModules.tap(RscClientPlugin.name, () => {
+          for (const dependency of this.dependencies) {
+            const module = compilation.moduleGraph.getModule(dependency);
+            if (module) {
+              compilation.moduleGraph
+                .getExportsInfo(module)
+                .setUsedInUnknownWay('main');
             }
-          });
-        };
-
-        normalModuleFactory.hooks.parser
-          .for(`javascript/auto`)
-          .tap(`HarmonyModulesPlugin`, onNormalModuleFactoryParser);
-
-        normalModuleFactory.hooks.parser
-          .for(`javascript/dynamic`)
-          .tap(`HarmonyModulesPlugin`, onNormalModuleFactoryParser);
-
-        normalModuleFactory.hooks.parser
-          .for(`javascript/esm`)
-          .tap(`HarmonyModulesPlugin`, onNormalModuleFactoryParser);
+          }
+        });
 
         compilation.hooks.additionalTreeRuntimeRequirements.tap(
           RscClientPlugin.name,
