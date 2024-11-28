@@ -46,30 +46,6 @@ export class RscServerPlugin {
       RuntimeGlobals,
     } = compiler.webpack;
 
-    class ServerReferenceDependency extends NullDependency {
-      override get type(): string {
-        return `server-reference`;
-      }
-    }
-
-    ServerReferenceDependency.Template = class ServerReferenceDependencyTemplate extends (
-      NullDependency.Template
-    ) {
-      override apply(
-        _dependency: ServerReferenceDependency,
-        _source: Webpack.sources.ReplaceSource,
-        { runtimeRequirements }: { runtimeRequirements: Set<string> },
-      ) {
-        runtimeRequirements.add(RuntimeGlobals.moduleId);
-      }
-    };
-
-    function hasServerReferenceDependency(module: Webpack.Module): boolean {
-      return module.dependencies.some(
-        dependency => dependency instanceof ServerReferenceDependency,
-      );
-    }
-
     const includeModule = async (
       compilation: Webpack.Compilation,
       resource: string,
@@ -233,72 +209,10 @@ export class RscServerPlugin {
     compiler.hooks.thisCompilation.tap(
       RscServerPlugin.name,
       (compilation, { normalModuleFactory }) => {
-        compilation.dependencyFactories.set(
-          ServerReferenceDependency,
-          normalModuleFactory,
-        );
-
-        compilation.dependencyTemplates.set(
-          ServerReferenceDependency,
-          new ServerReferenceDependency.Template(),
-        );
-
-        const onNormalModuleFactoryParser = (
-          parser: Webpack.javascript.JavascriptParser,
-        ) => {
-          parser.hooks.program.tap(RscServerPlugin.name, () => {
-            const { module } = parser.state;
-            const { resource } = module;
-            const buildInfo = getRscBuildInfo(module);
-            const isClientModule = buildInfo?.type === 'client';
-            const isServerModule = buildInfo?.type === 'server';
-
-            if (isServerModule && isClientModule) {
-              compilation.errors.push(
-                new WebpackError(
-                  `Cannot use both 'use server' and 'use client' in the same module ${resource}.`,
-                ),
-              );
-
-              return;
-            }
-
-            if (
-              module.layer === webpackRscLayerName &&
-              isServerModule &&
-              !hasServerReferenceDependency(module)
-            ) {
-              module.addDependency(new ServerReferenceDependency());
-            }
-          });
-
-          parser.hooks.expression
-            .for(RuntimeGlobals.moduleId)
-            .tap(RscServerPlugin.name, () => {
-              parser.state.module.buildInfo!.moduleArgument =
-                RuntimeGlobals.module;
-
-              return true;
-            });
-        };
-
-        normalModuleFactory.hooks.parser
-          .for(`javascript/auto`)
-          .tap(`HarmonyModulesPlugin`, onNormalModuleFactoryParser);
-
-        normalModuleFactory.hooks.parser
-          .for(`javascript/dynamic`)
-          .tap(`HarmonyModulesPlugin`, onNormalModuleFactoryParser);
-
-        normalModuleFactory.hooks.parser
-          .for(`javascript/esm`)
-          .tap(`HarmonyModulesPlugin`, onNormalModuleFactoryParser);
-
         compilation.hooks.finishModules.tap(RscServerPlugin.name, () => {
           for (const dependency of this.dependencies) {
             const module = compilation.moduleGraph.getResolvedModule(dependency);
             if (module) {
-              console.log((module as any).resource);
               compilation.moduleGraph
                 .getExportsInfo(module)
                 .setUsedInUnknownWay('main');
@@ -342,7 +256,10 @@ export class RscServerPlugin {
                     ),
                   );
                 }
-              } else if (hasServerReferenceDependency(module)) {
+              } else if (
+                module.layer === webpackRscLayerName &&
+                getRscBuildInfo(module)?.type === 'server'
+              ) {
                 const serverReferencesModuleInfo = getRscBuildInfo(module);
                 if (serverReferencesModuleInfo) {
                   serverReferencesModuleInfo.moduleId = moduleId;
