@@ -48,12 +48,6 @@ export class RscClientPlugin {
       styles: [],
     };
 
-    class ClientReferenceDependency extends ModuleDependency {
-      override get type(): string {
-        return `client-reference`;
-      }
-    }
-
     const getEntryModule = (compilation: Webpack.Compilation) => {
       const [entryTuple, ...otherEntries] = compilation.entries.entries();
       if (!entryTuple) {
@@ -90,45 +84,61 @@ export class RscClientPlugin {
     };
 
     const addClientReferencesChunks = (compilation: Webpack.Compilation, entryModule: Webpack.Module, callback: (err: any | null) => void) => {
+      const promises = [];
       [...this.clientReferencesMap.keys()].forEach((resourcePath, index) => {
         const dependency = EntryPlugin.createDependency(resourcePath, {
           name: resourcePath,
         });
-        compilation.addInclude(
-          compiler.context,
-          dependency,
-          { name: `client${index}` },
-          (error, module) => {
-            this.dependencies.push(dependency);
-            callback(error);
-          }
-        );
+        promises.push(new Promise((resolve, reject) => {
+          compilation.addInclude(
+            compiler.context,
+            dependency,
+            { name: `client${index}` },
+            (error, module) => {
+              if (error) {
+                reject(error);
+              } else {
+                this.dependencies.push(dependency);
+                resolve(undefined);
+              }
+            }
+          );
+        }))
       });
 
       if (this.styles && this.styles.size > 0) {
         for (const style of this.styles) {
-          const dep = new ClientReferenceDependency(style);
-          entryModule.addDependency(dep);
+          const dependency = EntryPlugin.createDependency(style, {
+            name: style,
+          });
+          promises.push(new Promise((resolve, reject) => {
+            compilation.addInclude(
+              compiler.context,
+              dependency,
+              { name: undefined },
+              (error, module) => {
+                if (error) {
+                  reject(error);
+                } else {
+                  this.dependencies.push(dependency);
+                  resolve(undefined);
+                }
+              }
+            );
+          }))
         }
       }
+
+      Promise.all(promises)
+        .then(() => callback(null))
+        .catch(error => callback(error))
     };
 
     compiler.hooks.finishMake.tapAsync(RscClientPlugin.name, (compilation, callback) => {
-      if (compiler.watchMode) {
-        const entryModule = getEntryModule(compilation);
+      const entryModule = getEntryModule(compilation);
 
-        if (entryModule) {
-          // Remove stale client references.
-          entryModule.blocks = entryModule.blocks.filter(block =>
-            block.dependencies.some(
-              dependency =>
-                !(dependency instanceof ClientReferenceDependency) ||
-                this.clientReferencesMap.has(dependency.request),
-            ),
-          );
-
-          addClientReferencesChunks(compilation, entryModule, callback);
-        }
+      if (entryModule) {
+        addClientReferencesChunks(compilation, entryModule, callback);
       }
     });
 
@@ -138,15 +148,6 @@ export class RscClientPlugin {
         this.clientReferencesMap = sharedData.get(
           'clientReferencesMap',
         ) as ClientReferencesMap;
-        compilation.dependencyFactories.set(
-          ClientReferenceDependency,
-          normalModuleFactory,
-        );
-
-        compilation.dependencyTemplates.set(
-          ClientReferenceDependency,
-          new NullDependency.Template(),
-        );
 
         compilation.hooks.finishModules.tap(RscClientPlugin.name, () => {
           for (const dependency of this.dependencies) {
