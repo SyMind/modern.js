@@ -225,70 +225,70 @@ export class RscServerPlugin {
         //   () => !(needsAdditionalPass = !needsAdditionalPass),
         // );
 
-        compilation.hooks.afterOptimizeModuleIds.tap(
-          RscServerPlugin.name,
-          modules => {
-            for (const module of modules) {
-              const resource = module.nameForCondition();
-
-              if (!resource) {
-                continue;
-              }
-
-              const moduleId = compilation.chunkGraph.getModuleId(module);
-              if (moduleId === null) {
-                continue;
-              }
-
-              if (
-                module.layer !== webpackRscLayerName &&
-                this.clientReferencesMap.has(resource)
-              ) {
-                const clientReferences = this.clientReferencesMap.get(resource);
-                if (clientReferences) {
-                  for (const clientReference of clientReferences) {
-                    clientReference.ssrId = moduleId;
-                  }
-                } else {
-                  compilation.errors.push(
-                    new WebpackError(
-                      `Could not find client references info in \`clientReferencesMap\` for ${resource}.`,
-                    ),
-                  );
-                }
-              } else if (
-                module.layer === webpackRscLayerName &&
-                getRscBuildInfo(module)?.type === 'server'
-              ) {
-                const serverReferencesModuleInfo = getRscBuildInfo(module);
-                if (serverReferencesModuleInfo) {
-                  serverReferencesModuleInfo.moduleId = moduleId;
-
-                  for (const exportName of serverReferencesModuleInfo.exportNames) {
-                    this.serverManifest[`${moduleId}#${exportName}`] = {
-                      id: moduleId,
-                      chunks: [],
-                      name: exportName,
-                    };
-                  }
-                } else {
-                  compilation.errors.push(
-                    new WebpackError(
-                      `Could not find server references module info in \`serverReferencesMap\` for ${resource}.`,
-                    ),
-                  );
-                }
-              }
-            }
-          },
-        );
-
         compilation.hooks.processAssets.tap(RscServerPlugin.name, () => {
           compilation.emitAsset(
             this.serverManifestFilename,
             new RawSource(JSON.stringify(this.serverManifest, null, 2), false),
           );
         });
+      },
+    );
+
+    compiler.hooks.afterCompile.tap(
+      RscServerPlugin.name,
+      compilation => {
+        for (const module of compilation.modules) {
+          const resource = module.nameForCondition();
+
+          if (!resource) {
+            continue;
+          }
+
+          const moduleId = compilation.chunkGraph.getModuleId(module);
+          if (moduleId === null) {
+            continue;
+          }
+
+          if (
+            module.layer !== webpackRscLayerName &&
+            this.clientReferencesMap.has(resource)
+          ) {
+            const clientReferences = this.clientReferencesMap.get(resource);
+            if (clientReferences) {
+              for (const clientReference of clientReferences) {
+                clientReference.ssrId = moduleId;
+              }
+            } else {
+              compilation.errors.push(
+                new WebpackError(
+                  `Could not find client references info in \`clientReferencesMap\` for ${resource}.`,
+                ),
+              );
+            }
+          } else if (
+            module.layer === webpackRscLayerName &&
+            getRscBuildInfo(module)?.type === 'server'
+          ) {
+            const serverReferencesModuleInfo = getRscBuildInfo(module);
+            if (serverReferencesModuleInfo) {
+              serverReferencesModuleInfo.moduleId = moduleId;
+
+              for (const exportName of serverReferencesModuleInfo.exportNames) {
+                this.serverManifest[`${moduleId}#${exportName}`] = {
+                  id: moduleId,
+                  chunks: [],
+                  name: exportName,
+                };
+              }
+            } else {
+              compilation.errors.push(
+                new WebpackError(
+                  `Could not find server references module info in \`serverReferencesMap\` for ${resource}.`,
+                ),
+              );
+            }
+          }
+        }
       },
     );
   }
