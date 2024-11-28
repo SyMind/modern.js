@@ -32,6 +32,8 @@ export class RscServerPlugin {
       options?.serverManifestFilename || `react-server-manifest.json`;
   }
 
+  private dependencies = [] as any[];
+
   apply(compiler: Webpack.Compiler): void {
     const {
       EntryPlugin,
@@ -109,21 +111,23 @@ export class RscServerPlugin {
               return reject(error);
             }
 
-            if (!module) {
-              const noModuleError = new WebpackError(`Module not added`);
-              noModuleError.file = resource;
-              compilation.errors.push(noModuleError);
+            this.dependencies.push(dependency);
 
-              return reject(noModuleError);
-            }
+            // if (!module) {
+            //   const noModuleError = new WebpackError(`Module not added`);
+            //   noModuleError.file = resource;
+            //   compilation.errors.push(noModuleError);
 
-            const runtime = getEntryRuntime(compilation, entryName, {
-              name: entryName,
-            });
+            //   return reject(noModuleError);
+            // }
 
-            compilation.moduleGraph
-              .getExportsInfo(module)
-              .setUsedInUnknownWay(runtime);
+            // const runtime = getEntryRuntime(compilation, entryName, {
+            //   name: entryName,
+            // });
+
+            // compilation.moduleGraph
+            //   .getExportsInfo(module)
+            //   .setUsedInUnknownWay(runtime);
 
             resolve();
           },
@@ -289,6 +293,18 @@ export class RscServerPlugin {
         normalModuleFactory.hooks.parser
           .for(`javascript/esm`)
           .tap(`HarmonyModulesPlugin`, onNormalModuleFactoryParser);
+
+        compilation.hooks.finishModules.tap(RscServerPlugin.name, () => {
+          for (const dependency of this.dependencies) {
+            const module = compilation.moduleGraph.getResolvedModule(dependency);
+            if (module) {
+              console.log((module as any).resource);
+              compilation.moduleGraph
+                .getExportsInfo(module)
+                .setUsedInUnknownWay('main');
+            }
+          }
+        });
 
         compilation.hooks.needAdditionalPass.tap(
           RscServerPlugin.name,
