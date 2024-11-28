@@ -68,9 +68,10 @@ export class RscClientPlugin {
 
       const [, entryValue] = entryTuple;
 
-      const entryDependency = entryValue.dependencies.find(
-        dependency => dependency.constructor.name === `EntryDependency`,
-      );
+      // const entryDependency = entryValue.dependencies.find(
+      //   dependency => dependency.constructor.name === `EntryDependency`,
+      // );
+      const entryDependency = entryValue.dependencies[0];
 
       if (!entryDependency) {
         compilation.errors.push(
@@ -80,7 +81,7 @@ export class RscClientPlugin {
         return;
       }
 
-      return compilation.moduleGraph.getResolvedModule(entryDependency);
+      return compilation.moduleGraph.getModule(entryDependency);
     };
 
     const addClientReferencesChunks = (compilation: Webpack.Compilation, entryModule: Webpack.Module, callback: (err: any | null) => void) => {
