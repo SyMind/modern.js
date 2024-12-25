@@ -2,22 +2,28 @@ import type { Module } from 'webpack';
 
 const MODERN_RSC_INFO = 'modernRscInfo';
 
-export function setBuildInfo(mod: Module, property: Record<string, any>) {
-  mod.buildInfo = mod.buildInfo || {};
+const BUILD_INFO_WEAK_MAP = new WeakMap();
 
-  Object.assign(mod.buildInfo, property);
+export function setBuildInfo(
+  mod: Module,
+  property: Record<string, any>,
+) {
+  const buildInfo = BUILD_INFO_WEAK_MAP.get(mod) || {};
+  BUILD_INFO_WEAK_MAP.set(mod, Object.assign(buildInfo, property));
 }
 
-export function setRscBuildInfo(mod: Module, property: Record<string, any>) {
-  mod.buildInfo = mod.buildInfo || {};
-  const rscBuildInfo = mod.buildInfo[MODERN_RSC_INFO] || {};
+const MODERN_RSC_INFO_WEAK_MAP = new WeakMap();
 
-  Object.assign(rscBuildInfo, property);
-  setBuildInfo(mod, { [MODERN_RSC_INFO]: rscBuildInfo });
+export function setRscBuildInfo(
+  mod: Module,
+  property: Record<string, any>,
+) {
+  const rscBuildInfo = MODERN_RSC_INFO_WEAK_MAP.get(mod) || {};
+  MODERN_RSC_INFO_WEAK_MAP.set(mod, Object.assign(rscBuildInfo, property));
 }
 
 export function getRscBuildInfo(mod: Module) {
-  return mod.buildInfo?.[MODERN_RSC_INFO] || {};
+  return MODERN_RSC_INFO_WEAK_MAP.get(mod);
 }
 
 export function isCssModule(mod: Module) {

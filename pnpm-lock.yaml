@@ -5,8 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  react: '19.0.0-rc-e1ef8c95-20241115 '
-  react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+  react: 19.0.0-rc-e1ef8c95-20241115
+  react-dom: 19.0.0-rc-e1ef8c95-20241115
+  '@rspack/core': /Users/bytedance/Documents/github/rspack/packages/rspack
 
 pnpmfileChecksum: xgsanqyu6btouvnpjms5qrs35q
 
@@ -356,10 +357,10 @@ importers:
         specifier: ^3.5.1
         version: 3.5.3
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       supertest:
         specifier: ^6.1.6
@@ -479,10 +480,10 @@ importers:
         specifier: ^29
         version: 29.5.0(@types/node@14.18.35)(ts-node@10.9.2(@swc/core@1.3.42)(@types/node@14.18.35)(typescript@5.3.3))
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       react-router-dom:
         specifier: 6.27.0
@@ -580,7 +581,7 @@ importers:
         specifier: ^8.4.35
         version: 8.4.35
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       tailwindcss:
         specifier: ^3.3.3
@@ -768,7 +769,7 @@ importers:
         version: 0.14.0
       rspack-manifest-plugin:
         specifier: 5.0.1
-        version: 5.0.1(@rspack/core@1.0.10(@swc/helpers@0.5.13))
+        version: 5.0.1
       terser-webpack-plugin:
         specifier: 5.3.10
         version: 5.3.10(@swc/core@1.3.42)(esbuild@0.17.19)(webpack@5.95.0(@swc/core@1.3.42)(esbuild@0.17.19))
@@ -804,10 +805,10 @@ importers:
         specifier: ^4.14.202
         version: 4.17.10
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       react-server-dom-webpack:
         specifier: 19.0.0-rc-e1ef8c95-20241115
@@ -916,7 +917,7 @@ importers:
         specifier: ^10.0.1
         version: 10.0.8(postcss@8.4.47)
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-base16-styling:
         specifier: ^0.9.1
@@ -925,7 +926,7 @@ importers:
         specifier: ^4.28.5
         version: 4.28.5
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       react-dom-exp:
         specifier: npm:react-dom@0.0.0-experimental-51ffd3564-20231025
@@ -980,10 +981,10 @@ importers:
         version: link:../../toolkit/utils
       '@rsdoctor/types':
         specifier: ^0.2.4
-        version: 0.2.4(@rspack/core@0.5.9(@swc/helpers@0.5.13))(@swc/core@1.3.42)(esbuild@0.17.19)
+        version: 0.2.4(@swc/core@1.3.42)(esbuild@0.17.19)
       '@rsdoctor/utils':
         specifier: ^0.2.4
-        version: 0.2.4(@rspack/core@0.5.9(@swc/helpers@0.5.13))(@swc/core@1.3.42)(esbuild@0.17.19)
+        version: 0.2.4(@swc/core@1.3.42)(esbuild@0.17.19)
       birpc:
         specifier: 0.2.19
         version: 0.2.19
@@ -1049,7 +1050,7 @@ importers:
         specifier: 3.3.7
         version: 3.3.7
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       type-fest:
         specifier: ^4.1.0
@@ -1180,10 +1181,10 @@ importers:
         specifier: ^10
         version: 10.1.0
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       rspress:
         specifier: 1.31.1
@@ -1204,10 +1205,10 @@ importers:
         specifier: 1.31.1
         version: 1.31.1
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       rspress:
         specifier: 1.31.1
@@ -2247,10 +2248,10 @@ importers:
         specifier: 0.5.13
         version: 0.5.13
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/base-generator':
@@ -2663,10 +2664,10 @@ importers:
         specifier: 2.0.0
         version: 2.0.0
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       react-router-dom:
         specifier: 6.27.0
@@ -2736,10 +2737,10 @@ importers:
         specifier: ^29
         version: 29.5.0(@types/node@14.18.35)(ts-node@10.9.2(@swc/core@1.3.42)(@types/node@14.18.35)(typescript@5.3.3))
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       ts-jest:
         specifier: ^29.1.0
@@ -2884,10 +2885,10 @@ importers:
         specifier: ^29
         version: 29.5.0(@types/node@14.18.35)(ts-node@10.9.2(@swc/core@1.3.42)(@types/node@14.18.35)(typescript@5.3.3))
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       ts-jest:
         specifier: ^29.1.0
@@ -3014,10 +3015,10 @@ importers:
         specifier: ^17.0.2
         version: 17.0.33
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       typescript:
         specifier: ^5
@@ -4417,10 +4418,10 @@ importers:
         specifier: ^29
         version: 29.5.0(@types/node@14.18.35)(ts-node@10.9.2(@swc/core@1.3.42)(@types/node@14.18.35)(typescript@5.3.3))
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       typescript:
         specifier: ^5
@@ -4807,10 +4808,10 @@ importers:
         specifier: 4.2.0
         version: 4.2.0
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       react-is:
         specifier: ^18
@@ -4991,10 +4992,10 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       react-router-dom:
         specifier: 6.22.0
@@ -5043,10 +5044,10 @@ importers:
         specifier: ^4
         version: 4.17.2(react-dom@19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115))(react@19.0.0-rc-e1ef8c95-20241115)
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/e2e/builder/cases/import-antd-v5:
@@ -5055,10 +5056,10 @@ importers:
         specifier: ^5
         version: 5.3.0(date-fns@2.29.3)(moment@2.29.4)(react-dom@19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115))(react@19.0.0-rc-e1ef8c95-20241115)
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/e2e/builder/cases/import-arco:
@@ -5067,10 +5068,10 @@ importers:
         specifier: ^2.46.0
         version: 2.46.1(@types/react@18.3.11)(react-dom@19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115))(react@19.0.0-rc-e1ef8c95-20241115)
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/e2e/builder/cases/moment:
@@ -5092,10 +5093,10 @@ importers:
   tests/e2e/builder/cases/source-map:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       source-map:
         specifier: 0.7.4
@@ -5104,10 +5105,10 @@ importers:
   tests/e2e/garfish:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/e2e':
@@ -5141,10 +5142,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5181,10 +5182,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5218,10 +5219,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5255,10 +5256,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5289,10 +5290,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5323,10 +5324,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5363,10 +5364,10 @@ importers:
         specifier: 2.13.4
         version: 2.13.4
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5409,10 +5410,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5443,10 +5444,10 @@ importers:
   tests/integration/asset-prefix:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5465,10 +5466,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5496,10 +5497,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5548,10 +5549,10 @@ importers:
         specifier: 8.10.0
         version: 8.10.0
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       react-error-boundary:
         specifier: 3.1.4
@@ -5595,7 +5596,7 @@ importers:
         version: link:../../../packages/cli/uni-builder
       '@rsdoctor/webpack-plugin':
         specifier: ^0.4.6
-        version: 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+        version: 0.4.7(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
       '@types/busboy':
         specifier: ^1.5.4
         version: 1.5.4
@@ -5642,10 +5643,10 @@ importers:
         specifier: ^4.17.2
         version: 4.20.0
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       ts-node:
         specifier: ^10.9.1
@@ -5697,10 +5698,10 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       ts-node:
         specifier: ^10.9.1
@@ -5740,10 +5741,10 @@ importers:
   tests/integration/builder-plugins:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5762,10 +5763,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5793,10 +5794,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5821,10 +5822,10 @@ importers:
   tests/integration/copy-assets:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5843,10 +5844,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5874,10 +5875,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5905,10 +5906,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5936,10 +5937,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -5967,10 +5968,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6007,10 +6008,10 @@ importers:
         specifier: 2.13.4
         version: 2.13.4
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       ts-node:
         specifier: ^10.9.1
@@ -6053,10 +6054,10 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       react-router:
         specifier: ^6
@@ -6093,10 +6094,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6107,7 +6108,7 @@ importers:
         version: link:../../../packages/devtools/plugin
       '@rsdoctor/rspack-plugin':
         specifier: ^0.2.4
-        version: 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
+        version: 0.2.4(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
       '@types/jest':
         specifier: ^29
         version: 29.5.13
@@ -6130,10 +6131,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6173,10 +6174,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/solutions/app-tools
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/entries/fixtures/app-builder-index:
@@ -6185,10 +6186,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/solutions/app-tools
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/entries/fixtures/app-custom:
@@ -6200,10 +6201,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/entries/fixtures/app-custom-bootstrap:
@@ -6215,10 +6216,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/entries/fixtures/app-custom-routes:
@@ -6230,10 +6231,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/entries/fixtures/app-entry:
@@ -6245,10 +6246,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/entries/fixtures/app-route:
@@ -6260,10 +6261,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/entries/fixtures/app-server-entry:
@@ -6278,10 +6279,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/toolkit/runtime-utils
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/esbuild:
@@ -6299,10 +6300,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6321,10 +6322,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/garfish/app-master:
@@ -6339,10 +6340,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/garfish/app-table:
@@ -6357,10 +6358,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/load-config:
@@ -6375,10 +6376,10 @@ importers:
   tests/integration/load-config/fixtures/async-config-function:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6388,10 +6389,10 @@ importers:
   tests/integration/load-config/fixtures/basic-local-config:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6401,10 +6402,10 @@ importers:
   tests/integration/load-config/fixtures/config-function-params:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6414,10 +6415,10 @@ importers:
   tests/integration/load-config/fixtures/local-config-function:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6430,10 +6431,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6494,10 +6495,10 @@ importers:
         specifier: 1.0.1
         version: 1.0.1
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       typescript:
         specifier: ^5
@@ -6512,25 +6513,25 @@ importers:
   tests/integration/module/fixtures/build/asset/limit:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
 
   tests/integration/module/fixtures/build/asset/name:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
 
   tests/integration/module/fixtures/build/asset/path:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
 
   tests/integration/module/fixtures/build/asset/publicPath:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
 
   tests/integration/module/fixtures/build/asset/svgr: {}
@@ -6549,7 +6550,7 @@ importers:
         version: 8.4.47
     devDependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
 
   tests/integration/module/fixtures/build/banner-footer: {}
@@ -6567,7 +6568,7 @@ importers:
   tests/integration/module/fixtures/build/dts:
     devDependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
 
   tests/integration/module/fixtures/build/dts-composite: {}
@@ -6710,10 +6711,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6750,10 +6751,10 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       zod:
         specifier: ^3.22.3
@@ -6787,10 +6788,10 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6824,10 +6825,10 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6863,10 +6864,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/runtime-plugin/fixtures/runtime-custom-config-plugin:
@@ -6878,10 +6879,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/runtime/fixtures/file-based-router:
@@ -6896,10 +6897,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/runtime/fixtures/use-loader:
@@ -6911,10 +6912,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/select-entry:
@@ -6932,10 +6933,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6963,10 +6964,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -6994,10 +6995,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7037,10 +7038,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7077,10 +7078,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7114,10 +7115,10 @@ importers:
         specifier: ^1.7.4
         version: 1.7.7(debug@4.3.7)
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7148,10 +7149,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7182,10 +7183,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7216,10 +7217,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7250,10 +7251,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7290,10 +7291,10 @@ importers:
         specifier: ^4.17.2
         version: 4.20.0
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7321,10 +7322,10 @@ importers:
         specifier: ^4.17.2
         version: 4.20.0
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7352,10 +7353,10 @@ importers:
         specifier: ^5
         version: 5.3.0(date-fns@2.29.3)(moment@2.29.4)(react-dom@19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115))(react@19.0.0-rc-e1ef8c95-20241115)
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7389,10 +7390,10 @@ importers:
         specifier: ^5
         version: 5.3.0(date-fns@2.29.3)(moment@2.29.4)(react-dom@19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115))(react@19.0.0-rc-e1ef8c95-20241115)
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7449,10 +7450,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/ssg/fixtures/simple:
@@ -7467,10 +7468,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/ssg/fixtures/web-server:
@@ -7488,10 +7489,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/ssr:
@@ -7512,10 +7513,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7540,10 +7541,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7568,10 +7569,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7602,10 +7603,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/ssr/fixtures/inline:
@@ -7617,10 +7618,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/ssr/fixtures/partial:
@@ -7629,10 +7630,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7660,10 +7661,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
 
   tests/integration/ssr/fixtures/streaming:
@@ -7672,10 +7673,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7697,10 +7698,10 @@ importers:
   tests/integration/storybook:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       typescript:
         specifier: ^5
@@ -7737,10 +7738,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7774,10 +7775,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7793,10 +7794,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7812,10 +7813,10 @@ importers:
         specifier: workspace:*
         version: link:../../../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -7852,10 +7853,10 @@ importers:
         specifier: ^8.4.35
         version: 8.4.35
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       tailwindcss:
         specifier: ^2
@@ -7876,10 +7877,10 @@ importers:
         specifier: ^8.4.35
         version: 8.4.35
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       tailwindcss:
         specifier: ^3.3.3
@@ -7900,10 +7901,10 @@ importers:
         specifier: ^8.4.35
         version: 8.4.35
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       tailwindcss:
         specifier: ^3.3.3
@@ -7924,10 +7925,10 @@ importers:
         specifier: ^8.4.35
         version: 8.4.35
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       tailwindcss:
         specifier: ^3.3.3
@@ -7948,10 +7949,10 @@ importers:
         specifier: ^8.4.35
         version: 8.4.35
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       tailwindcss:
         specifier: ^3.3.3
@@ -7972,10 +7973,10 @@ importers:
         specifier: ^8.4.35
         version: 8.4.35
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       twin.macro:
         specifier: ^2
@@ -7996,10 +7997,10 @@ importers:
         specifier: ^8.4.35
         version: 8.4.35
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
       tailwindcss:
         specifier: ^3.3.3
@@ -8014,10 +8015,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -8045,10 +8046,10 @@ importers:
   tests/integration/transform-import:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -8079,10 +8080,10 @@ importers:
   tests/integration/transform-lodash-import:
     dependencies:
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -8122,10 +8123,10 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/runtime/plugin-runtime
       react:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115
       react-dom:
-        specifier: '19.0.0-rc-e1ef8c95-20241115 '
+        specifier: 19.0.0-rc-e1ef8c95-20241115
         version: 19.0.0-rc-e1ef8c95-20241115(react@19.0.0-rc-e1ef8c95-20241115)
     devDependencies:
       '@modern-js/app-tools':
@@ -8173,8 +8174,8 @@ packages:
   '@ant-design/cssinjs@1.6.2':
     resolution: {integrity: sha512-kmUo5xrfjOtDBp6LcBwPqPXei3Zar4SZfg7FpuahS1Fm9NyWckrxEVge6MjBgmZrpAnaJn00zy2jMELL7HuY6w==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@ant-design/icons-svg@4.2.1':
     resolution: {integrity: sha512-EB0iwlKDGpG93hW8f85CTJTs4SvMX7tt5ceupvhALp1IF44SeUFOMhKUOYqpsoYWQKAOuTRDMqn75rEaKDp0Xw==}
@@ -8183,25 +8184,25 @@ packages:
     resolution: {integrity: sha512-aoB4Z7JA431rt6d4u+8xcNPPCrdufSRMUOpxa1ab6mz1JCQZOEVolj2WVs/tDFmN62zzK30mNelEsprLYsSF3g==}
     engines: {node: '>=8'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@ant-design/icons@5.0.0':
     resolution: {integrity: sha512-dPUlZtsIffBrDyFwM+tuO4PWi1DPgGgd10ASistPhLpr1WyssadfhChWs/mICVkCm5PaRm/foMkE1x3xw4OPZw==}
     engines: {node: '>=8'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@ant-design/react-slick@0.28.4':
     resolution: {integrity: sha512-j9eAHTn7GxbXUFNknJoHS2ceAsqrQi2j8XykjZE1IXCD8kJF+t28EvhBLniDpbOsBk/3kjalnhriTfZcjBHNqg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   '@ant-design/react-slick@1.0.0':
     resolution: {integrity: sha512-OKxZsn8TAf8fYxP79rDXgLs9zvKMTslK6dJ4iLhDXOujUqC5zJPBRszyrcEHXcMPOm1Sgk40JgyF3yiL/Swd7w==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   '@arco-design/color@0.4.0':
     resolution: {integrity: sha512-s7p9MSwJgHeL8DwcATaXvWT3m2SigKpxx4JA1BGPHL4gfvaQsmQfrLBDpjOJFJuJ2jG2dMt3R3P8Pm9E65q18g==}
@@ -8209,8 +8210,8 @@ packages:
   '@arco-design/web-react@2.46.1':
     resolution: {integrity: sha512-XjG44rODJklDu++OApvxjt/TbRrgkNqVq6grt/H+9skysm46jFn2SwhuSljBHmjo11LtIeB1m/OMPMaFtafeYg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@ast-grep/napi-darwin-arm64@0.16.0':
     resolution: {integrity: sha512-ESjIg03S0ln+8CP43TKqY6+QPL2Kkm+6iMS5kAUMVtH/WNWd2z0oQLg9bmadUNPylYbB42B3zRtuTKwm/nCpdA==}
@@ -9564,8 +9565,8 @@ packages:
   '@codesandbox/sandpack-react@2.6.9':
     resolution: {integrity: sha512-JAbpc1emb9lGdZ0zfnfQnJmU91IcH1AUOmoVevB2qwdrxeaQWy5DyKyqRaQDcMyPicXSXMUF6nvDhb0HY34ofw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@colors/colors@1.5.0':
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
@@ -9717,7 +9718,7 @@ packages:
   '@emotion/use-insertion-effect-with-fallbacks@1.1.0':
     resolution: {integrity: sha512-+wBOcIV5snwGgI2ya3u99D7/FJquOIniQT1IKyDsBmEgwvpxMNeS65Oib7OnE2d2aY+3BU4OiH+0Wchf8yk3Hw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   '@esbuild-kit/cjs-loader@2.4.2':
     resolution: {integrity: sha512-BDXFbYOJzT/NBEtp71cvsrGPwGAMGRB/349rwKuoxNSiKjPraNNnlK6MIIabViCjqZugu6j+xeMDlEkWdHHJSg==}
@@ -10159,14 +10160,14 @@ packages:
   '@floating-ui/react-dom@2.0.2':
     resolution: {integrity: sha512-5qhlDvjaLmAst/rKb3VdlCinwTF4EYMiVxuuc/HVUjs46W0zgtbMmAZ1UTsDrRTxRmUEzl92mOtWbeeXL26lSQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@floating-ui/react-dom@2.1.2':
     resolution: {integrity: sha512-06okr5cgPzMNBy+Ycse2A6udMi4bqwW/zgBF/rwjcNqWkyr82Mcg8b0vjX8OJpZFy/FKjJmw6wV7t44kK6kW7A==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@floating-ui/utils@0.1.2':
     resolution: {integrity: sha512-ou3elfqG/hZsbmF4bxeJhPHIf3G2pm0ujc39hYEZrfVqt7Vk/Zji6CXc3W0pmYM8BW1g40U+akTl9DKZhFhInQ==}
@@ -10424,20 +10425,20 @@ packages:
     resolution: {integrity: sha512-VOgYgCABn6+/7aGIpg7m0Ruj34tGetaJzt4bQ345FwEovDQZ+dua+NWLmuJKv8rWZyxOUSfoJkmGnzyDXH2BAQ==}
     engines: {node: '>=8'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   '@loadable/component@5.16.4':
     resolution: {integrity: sha512-fJWxx9b5WHX90QKmizo9B+es2so8DnBthI1mbflwCoOyvzEwxiZ/SVDCTtXEnHG72/kGBdzr297SSIekYtzSOQ==}
     engines: {node: '>=8'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   '@loadable/server@5.15.3':
     resolution: {integrity: sha512-Bm/BGe+RlChuHDKNNXpQOi4AJ0cKVuSLI+J8U0Q06zTIfT0S1RLoy85qs5RXm3cLIfefygL8+9bcYFgeWcoM8A==}
     engines: {node: '>=8'}
     peerDependencies:
       '@loadable/component': ^5.0.1
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   '@manypkg/find-root@1.1.0':
     resolution: {integrity: sha512-mki5uBvhHzO8kYYix/WRy2WX8S3B5wdVSc9D6KcU5lQNglP2yt58/VfLuAK49glRXChosY8ap2oJ1qgma3GUVA==}
@@ -10463,12 +10464,12 @@ packages:
   '@mdx-js/react@1.6.22':
     resolution: {integrity: sha512-TDoPum4SHdfPiGSAaRBw7ECyI8VaHpK8GJugbJIJuqyh6kzw9ZLJZW3HGL3NNrJGxcAixUvqROm+YuQOo5eXtg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   '@mdx-js/react@2.3.0':
     resolution: {integrity: sha512-zQH//gdOmuu7nt2oJR29vFhDv88oGPmVw6BggmrHeMI+xgEkp1B2dX9/bMBSYtK0dyLX/aOmesKS09g222K1/g==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   '@mdx-js/util@1.6.22':
     resolution: {integrity: sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==}
@@ -10498,8 +10499,8 @@ packages:
     peerDependencies:
       '@types/react': ^16.8 || ^17.0 || ^18.0
       '@types/react-dom': ^16.8 || ^17.0 || ^18.0
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -10560,7 +10561,7 @@ packages:
     resolution: {integrity: sha512-dw0HFaGKnXqZ2nztyvZF0KP21Sj6DLgnzcf9pUEJlKXnZjWfcL/ecOkJu0nh/tOzu6AV2EllqLHiehceBVmYxA==}
     engines: {node: '>=14.17.6'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   '@modern-js/module-tools@2.60.3':
     resolution: {integrity: sha512-YF88Z1150Qs16CIXvsspUgQORY/9eq96iyBlsmzauaLaSWClBY5gLhmA7Up/G9C3UUAynp5Sy6GdqU9ERHj7eA==}
@@ -10653,30 +10654,6 @@ packages:
 
   '@modern-js/utils@2.60.3':
     resolution: {integrity: sha512-g9kxWsYZ71MZPXMEf2ltDP229WjGIChNB95fjmcvtWRoW9grhINdQJ0/tO+jEaHZiDDQEWuPJlqqUrXWcZB0nQ==}
-
-  '@module-federation/runtime-tools@0.0.8':
-    resolution: {integrity: sha512-tqx3wlVHnpWLk+vn22c0x9Nv1BqdZnoS6vdMb53IsVpbQIFP70nhhvymHUyFuPkoLzMFidS7GpG58DYT/4lvCw==}
-
-  '@module-federation/runtime-tools@0.5.1':
-    resolution: {integrity: sha512-nfBedkoZ3/SWyO0hnmaxuz0R0iGPSikHZOAZ0N/dVSQaIzlffUo35B5nlC2wgWIc0JdMZfkwkjZRrnuuDIJbzg==}
-
-  '@module-federation/runtime@0.0.8':
-    resolution: {integrity: sha512-Hi9g10aHxHdQ7CbchSvke07YegYwkf162XPOmixNmJr5Oy4wVa2d9yIVSrsWFhBRbbvM5iJP6GrSuEq6HFO3ug==}
-
-  '@module-federation/runtime@0.5.1':
-    resolution: {integrity: sha512-xgiMUWwGLWDrvZc9JibuEbXIbhXg6z2oUkemogSvQ4LKvrl/n0kbqP1Blk669mXzyWbqtSp6PpvNdwaE1aN5xQ==}
-
-  '@module-federation/sdk@0.0.8':
-    resolution: {integrity: sha512-lkasywBItjUTNT0T0IskonDE2E/2tXE9UhUCPVoDL3NteDUSFGg4tpkF+cey1pD8mHh0XJcGrCuOW7s96peeAg==}
-
-  '@module-federation/sdk@0.5.1':
-    resolution: {integrity: sha512-exvchtjNURJJkpqjQ3/opdbfeT2wPKvrbnGnyRkrwW5o3FH1LaST1tkiNviT6OXTexGaVc2DahbdniQHVtQ7pA==}
-
-  '@module-federation/webpack-bundler-runtime@0.0.8':
-    resolution: {integrity: sha512-ULwrTVzF47+6XnWybt6SIq97viEYJRv4P/DByw5h7PSX9PxSGyMm5pHfXdhcb7tno7VknL0t2V8F48fetVL9kA==}
-
-  '@module-federation/webpack-bundler-runtime@0.5.1':
-    resolution: {integrity: sha512-mMhRFH0k2VjwHt3Jol9JkUsmI/4XlrAoBG3E0o7HoyoPYv1UFOWyqAflfANcUPgbYpvqmyLzDcO+3IT36LXnrA==}
 
   '@ndelangen/get-tarball@3.0.9':
     resolution: {integrity: sha512-9JKTEik4vq+yGosHYhZ1tiH/3WpUS0Nh0kej4Agndhox8pAdWhEx5knFVRcb/ya9knCRCs1rPxNrSXTDdfVqpA==}
@@ -10869,8 +10846,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -10882,8 +10859,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -10895,8 +10872,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -10908,8 +10885,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -10921,8 +10898,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -10934,8 +10911,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -10947,8 +10924,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -10960,8 +10937,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -10973,8 +10950,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -10985,7 +10962,7 @@ packages:
     resolution: {integrity: sha512-fDSBgd44FKHa1FRMU59qBMPFcl2PZE+2nmqunj+BWFyYYjnhIDWL2ItDs3rrbJDQOtzt5nIebLCQc4QRfz6LJw==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -10994,7 +10971,7 @@ packages:
     resolution: {integrity: sha512-b4inOtiaOnYf9KWyO3jAeeCG6FeyfY6ldiEPanbUjWd+xIk5wZeHa8yVwmrJ2vderhu/BQvzCrJI0lHd+wIiqw==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11004,8 +10981,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11016,7 +10993,7 @@ packages:
     resolution: {integrity: sha512-ebbrdFoYTcuZ0v4wG5tedGnp9tzcV8awzsxYph7gXUyvnNLuTIcCk1q17JEbnVhXAKG9oX3KtchwiMIAYp9NLg==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11025,7 +11002,7 @@ packages:
     resolution: {integrity: sha512-OKrckBy+sMEgYM/sMmqmErVn0kZqrHPJze+Ql3DzYsDDp0hl0L62nx/2122/Bvps1qz645jlcu2tD9lrRSdf8A==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11035,8 +11012,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11047,7 +11024,7 @@ packages:
     resolution: {integrity: sha512-RXcvnXgyvYvBEOhCBuddKecVkoMiI10Jcm5cTI7abJRAHYfFxeu+FBQs/DvdxSYucxR5mna0dNsL6QFlds5TMA==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11056,7 +11033,7 @@ packages:
     resolution: {integrity: sha512-BUuBvgThEiAXh2DWu93XsT+a3aWrGqolGlqqw5VU1kG7p/ZH2cuDlM1sRLNnY3QcBS69UIz2mcKhMxDsdewhjg==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11066,8 +11043,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11079,8 +11056,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11092,8 +11069,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11104,7 +11081,7 @@ packages:
     resolution: {integrity: sha512-Rect2dWbQ8waGzhMavsIbmSVCgYxkXLxxR3ZvCX79JOglzdEy4JXMb98lq4hPxUbLr77nP0UOGf4rcMU+s1pUA==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11114,8 +11091,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11127,8 +11104,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11140,8 +11117,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11153,8 +11130,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11164,13 +11141,13 @@ packages:
   '@radix-ui/react-icons@1.3.0':
     resolution: {integrity: sha512-jQxj/0LKgp+j9BiTXz3O3sgs26RNet2iLWmsPyRz2SIcR4q/4SbazXfnYwbAr+vLYKSfc7qxzyGQA1HLlYiuNw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   '@radix-ui/react-id@1.0.1':
     resolution: {integrity: sha512-tI7sT/kqYp8p96yGWY1OAnLHrqDgzHefRBKQ2YAkBS5ja7QLcZ9Z/uY7bEjPUatf8RomoXM8/1sMj1IJaE5UzQ==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11179,7 +11156,7 @@ packages:
     resolution: {integrity: sha512-EJUrI8yYh7WOjNOqpoJaf1jlFIH2LvtgAl+YcFqNCa+4hj64ZXmPkAKOFs/ukjz3byN6bdb/AVUqHkI8/uWWMA==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11189,8 +11166,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11202,8 +11179,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11215,8 +11192,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11228,8 +11205,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11241,8 +11218,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11254,8 +11231,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11267,8 +11244,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11280,8 +11257,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11293,8 +11270,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11306,8 +11283,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11319,8 +11296,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11332,8 +11309,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11345,8 +11322,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11358,8 +11335,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11371,8 +11348,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11384,8 +11361,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11397,8 +11374,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11410,8 +11387,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11423,8 +11400,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11436,8 +11413,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11448,7 +11425,7 @@ packages:
     resolution: {integrity: sha512-YeTpuq4deV+6DusvVUW4ivBgnkHwECUu0BiN43L5UCDFgdhsRUWAghhTF5MbvNTPzmiFOx90asDSUjWuCNapwg==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11457,7 +11434,7 @@ packages:
     resolution: {integrity: sha512-FUCf5XMfmW4dtYl69pdS4DbxKy8nj4M7SafBgPllysxmdachynNflAdp/gCsnYWNDnge6tI9onzMp5ARYc1KNw==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11467,8 +11444,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11480,8 +11457,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11493,8 +11470,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11506,8 +11483,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11519,8 +11496,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11532,8 +11509,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11545,8 +11522,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11558,8 +11535,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11571,8 +11548,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11583,7 +11560,7 @@ packages:
     resolution: {integrity: sha512-D94LjX4Sp0xJFVaoQOd3OO9k7tpBYNOXdVhkltUbGv2Qb9OXdrg/CpsjlZv7ia14Sylv398LswWBVVu5nqKzAQ==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11592,7 +11569,7 @@ packages:
     resolution: {integrity: sha512-CasTfvsy+frcFkbXtSJ2Zu9JHpN8TYKxkgJGWbjiZhFivxaeW7rMeZt7QELGVLaYVfFMsKHjb7Ak0nMEe+2Vfw==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11601,7 +11578,7 @@ packages:
     resolution: {integrity: sha512-Svl5GY5FQeN758fWKrjM6Qb7asvXeiZltlT4U2gVfl8Gx5UAv2sMR0LWo8yhsIZh2oQ0eFdZ59aoOOMV7b47VA==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11610,7 +11587,7 @@ packages:
     resolution: {integrity: sha512-MtfMVJiSr2NjzS0Aa90NPTnvTSg6C/JLCV7ma0W6+OMV78vd8OyRpID+Ng9LxzsPbLeuBnWBA1Nq30AtBIDChw==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11619,7 +11596,7 @@ packages:
     resolution: {integrity: sha512-vyL82j40hcFicA+M4Ex7hVkB9vHgSse1ZWomAqV2Je3RleKGO5iM8KMOEtfoSB0PnIelMd2lATjTGMYqN5ylTg==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11628,7 +11605,7 @@ packages:
     resolution: {integrity: sha512-v/5RegiJWYdoCvMnITBkNNx6bCj20fiaJnWtRkU18yITptraXjffz5Qbn05uOiQnOvi+dbkznkoaMltz1GnszQ==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11637,7 +11614,7 @@ packages:
     resolution: {integrity: sha512-+FPE0rOdziWSrH9athwI1R0HDVbWlEhd+FR+aSDk4uWGmSJ9Z54sdZVDQPZAinJhJXwfT+qnj969mCsT2gfm5w==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11646,7 +11623,7 @@ packages:
     resolution: {integrity: sha512-cV5La9DPwiQ7S0gf/0qiD6YgNqM5Fk97Kdrlc5yBcrF3jyEZQwm7vYFqMo4IfeHgJXsRaMvLABFtd0OVEmZhDw==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11655,7 +11632,7 @@ packages:
     resolution: {integrity: sha512-Cq5DLuSiuYVKNU8orzJMbl15TXilTnJKUCltMVQg53BQOF1/C5toAaGrowkgksdBQ9H+SRL23g0HDmg9tvmxXw==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11664,7 +11641,7 @@ packages:
     resolution: {integrity: sha512-ibay+VqrgcaI6veAojjofPATwledXiSmX+C0KrBk/xgpX9rBzPV3OsfwlhQdUOFbh+LKQorLYT+xTXW9V8yd0g==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11674,8 +11651,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11690,8 +11667,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -11701,8 +11678,8 @@ packages:
   '@rc-component/context@1.3.0':
     resolution: {integrity: sha512-6QdaCJ7Wn5UZLJs15IEfqy4Ru3OaL5ctqpQYWd5rlfV9wwzrzdt6+kgAQZV/qdB0MUPN4nhyBfRembQCIvBf+w==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@rc-component/mini-decimal@1.0.1':
     resolution: {integrity: sha512-9N8nRk0oKj1qJzANKl+n9eNSMUGsZtjwNuDCiZ/KA+dt1fE3zq5x2XxclRcAbOIXnZcJ53ozP2Pa60gyELXagA==}
@@ -11712,39 +11689,39 @@ packages:
     resolution: {integrity: sha512-okqRJSfNisXdI6CUeOLZC5ukBW/8kir2Ii4PJiKpUt+3+uS7dxwJUMxsUZquxA1rQuL8YcEmKVp/TCnR+yUdZA==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@rc-component/portal@1.1.0':
     resolution: {integrity: sha512-tbXM9SB1r5FOuZjRCljERFByFiEUcMmCWMXLog/NmgCzlAzreXyf23Vei3ZpSMxSMavzPnhCovfZjZdmxS3d1w==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@rc-component/tour@1.8.0':
     resolution: {integrity: sha512-rrRGioHTLQlGca27G2+lw7QpRb3uuMYCUIJjj31/B44VCJS0P2tqYhOgtzvWQmaLMlWH3ZlpzotkKX13NT4XEA==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@rc-component/trigger@1.6.2':
     resolution: {integrity: sha512-MxIokdiDnBACGYGWtGp19pnBVKPKmrP7yDjGfkE+HtyATLs9T8DOdd53EZnk1DbuEUn+6EMYigKMmXOqffTYxw==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@react-hook/intersection-observer@3.1.1':
     resolution: {integrity: sha512-OTDx8/wFaRvzFtKl1dEUEXSOqK2zVJHporiTTdC2xO++0e9FEx9wIrPis5q3lqtXeZH9zYGLbk+aB75qNFbbuw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   '@react-hook/passive-layout-effect@1.2.1':
     resolution: {integrity: sha512-IwEphTD75liO8g+6taS+4oqz+nnroocNfWVHWz7j+N+ZO2vYrc6PV1q7GQhuahL0IOR7JccFTsFKQ/mb6iZWAg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   '@redux-devtools/extension@3.3.0':
     resolution: {integrity: sha512-X34S/rC8S/M1BIrkYD1mJ5f8vlH0BDqxXrs96cvxSBo4FhMdbhU+GUGsmNYov1xjSyLMHgo8NYrUG8bNX7525g==}
@@ -11963,7 +11940,7 @@ packages:
   '@rsdoctor/rspack-plugin@0.2.4':
     resolution: {integrity: sha512-NP6DVjYcFEVrDSyRyL+xwrjAxBnExsuwn4jECEYOfyjTp0RVkVzVtaEhxs4lVa2M3E0gB4bUqpsiKqa6beimew==}
     peerDependencies:
-      '@rspack/core': ^0.5.1
+      '@rspack/core': /Users/bytedance/Documents/github/rspack/packages/rspack
 
   '@rsdoctor/sdk@0.2.4':
     resolution: {integrity: sha512-hVoobVOif03rkavizjhYX8vmWnaQAkbvBgnlag4bTvuz51dA52ri9/oJFvsNgmLquJNF7XljBLyvAZeE8teckA==}
@@ -11974,7 +11951,7 @@ packages:
   '@rsdoctor/types@0.2.4':
     resolution: {integrity: sha512-XvTwj6JFh0r+7iNqlv9vGeh7/y/Tu3/2+E4JmmPipmxsPI1cDJe65RTKj/eTgbpLH1W/TINDw2czAiol8m/ouA==}
     peerDependencies:
-      '@rspack/core': ^0.5.1
+      '@rspack/core': /Users/bytedance/Documents/github/rspack/packages/rspack
     peerDependenciesMeta:
       '@rspack/core':
         optional: true
@@ -11982,7 +11959,7 @@ packages:
   '@rsdoctor/types@0.4.7':
     resolution: {integrity: sha512-g8CUcMP5/nJWEjQdMhIv4jCm2JeZGooNHdD4oCi0VqrUKeAK8rZya1hixpk6m6ozTGkmoL1PqaYcaA5MhMhovg==}
     peerDependencies:
-      '@rspack/core': '*'
+      '@rspack/core': /Users/bytedance/Documents/github/rspack/packages/rspack
       webpack: 5.x
     peerDependenciesMeta:
       '@rspack/core':
@@ -11998,120 +11975,6 @@ packages:
     resolution: {integrity: sha512-+qrkM1qpqknq7X67FdyyhGmqorVQXNNvRtt9TedDD3oIBRwomDC9VFcEMJvl3woRNKTqgQVPgFBV2qVlIk9LVg==}
     peerDependencies:
       webpack: 5.x
-
-  '@rspack/binding-darwin-arm64@0.5.9':
-    resolution: {integrity: sha512-IIClT4d5O7Ays6QrZG06eMYFYY4PwGpcRNChbeKkl3v+CgNshmsPHASnQ6HQjwilcnFw252Hb7ayz0IJGrArHQ==}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@rspack/binding-darwin-arm64@1.0.10':
-    resolution: {integrity: sha512-byQuC3VSEHJxjcjdgOvEPPkteA7d/kKYGUTZjsAMsIriioCVkB+4OYfnQmnav8M0An9vBM34H2+IKqO1ge1+Aw==}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@rspack/binding-darwin-x64@0.5.9':
-    resolution: {integrity: sha512-K3ijbHCR5ZgT69gR3LK8Zz9f+moMtqe87K7mu/6dms5n2eA/JrtZK/6qFaWKypgjySdwM6uNmff2FkJCJdRl/g==}
-    cpu: [x64]
-    os: [darwin]
-
-  '@rspack/binding-darwin-x64@1.0.10':
-    resolution: {integrity: sha512-L5dGmELiDDXAW3+yN11fwDbl8S9i7dwOvzygN/Iw+Md2WAODrFnTI/g++hOfdZzjUPtefyQUqoAcFOgpdxWSCQ==}
-    cpu: [x64]
-    os: [darwin]
-
-  '@rspack/binding-linux-arm64-gnu@0.5.9':
-    resolution: {integrity: sha512-sc0fp4CEt3sgafrDUV5hTLDErlarmsazPGkxdJPb5TGVYjiKaYxM6AtH1ZTEDP1DmDtCvBUutfbdO6pzXFDGSA==}
-    cpu: [arm64]
-    os: [linux]
-
-  '@rspack/binding-linux-arm64-gnu@1.0.10':
-    resolution: {integrity: sha512-s+0AIGQQ2Npz3RcDQAFOLc4KYAZZ1g4oWxm2Ug7RSecwy7edK1uUDYE+boofEMgZ9+O3G5O+sXQr+SAyidS5EA==}
-    cpu: [arm64]
-    os: [linux]
-
-  '@rspack/binding-linux-arm64-musl@0.5.9':
-    resolution: {integrity: sha512-clhkNsNi76pTYtZz1U95R36AdZZH2eXbBWb0g17okCt4aXfJoHWIViDvHWvVmU9318repxwww3rR0ImbLskZiw==}
-    cpu: [arm64]
-    os: [linux]
-
-  '@rspack/binding-linux-arm64-musl@1.0.10':
-    resolution: {integrity: sha512-KSPLOHcUC+8zA134RTCqo5bDqmX4ZwFz4LL+n/5i9yugHoiQVplEzh2TkFCVoAH85Xc40qPhxqGLJlhHh5qGEA==}
-    cpu: [arm64]
-    os: [linux]
-
-  '@rspack/binding-linux-x64-gnu@0.5.9':
-    resolution: {integrity: sha512-bC69vwrG9R/kdpEuDXP/IleedCWR97d0GRLJFAapc2rPoFRI3vnuQVzp8+nX7CA1k2n6tfOJlOvaWLIik3hzXw==}
-    cpu: [x64]
-    os: [linux]
-
-  '@rspack/binding-linux-x64-gnu@1.0.10':
-    resolution: {integrity: sha512-hiMIowGEUODn0LxV/Kc/oxHDXXSgu9BgPVZNprRTEZs3E7hHP4FX+YlzKafZ9G6qSY51GkiEDyEOb5X4Pq/eTw==}
-    cpu: [x64]
-    os: [linux]
-
-  '@rspack/binding-linux-x64-musl@0.5.9':
-    resolution: {integrity: sha512-QGDcWKlLCunBW1/zIvPq6HkIt7920WVhY+ONFGd12owPUEveZTVxWYr64ROJqtIFueWFZYY4FFX6uwCpmH2hrQ==}
-    cpu: [x64]
-    os: [linux]
-
-  '@rspack/binding-linux-x64-musl@1.0.10':
-    resolution: {integrity: sha512-OKb1PLOIulkg83zFyeFPowIzF7WdYVO6yRK7l+Kkick/cvALOj5XzRHyxrsb8VfJMpzHrPwsLV0RcGRT18BPMw==}
-    cpu: [x64]
-    os: [linux]
-
-  '@rspack/binding-win32-arm64-msvc@0.5.9':
-    resolution: {integrity: sha512-57ux9VmD4tIPBAM9G6cgGUjKX2AVLln+DJ3E2+OZV430w09NUoXmwt9THIm2cCaiExMlo0rZpgaEOsRbG1asBQ==}
-    cpu: [arm64]
-    os: [win32]
-
-  '@rspack/binding-win32-arm64-msvc@1.0.10':
-    resolution: {integrity: sha512-J2fCPYgiPyLo4pGZMHT72lGHK05puBYJzpCR8CmVCk+ktkhVcao9cA2BUT3Gr3UG2PPxfBFsDDmjA/FsUEdxrg==}
-    cpu: [arm64]
-    os: [win32]
-
-  '@rspack/binding-win32-ia32-msvc@0.5.9':
-    resolution: {integrity: sha512-DbV4fyZjvEZQi8lDttelP3ctvljfOc4rtElV0rFHzx78MCR7yBqhjLZwy0Y0x3x4SsVlxXyCAL1yXaUKL+Zoiw==}
-    cpu: [ia32]
-    os: [win32]
-
-  '@rspack/binding-win32-ia32-msvc@1.0.10':
-    resolution: {integrity: sha512-DQeGQgFS3jv+krfvp9dAKubGbY98nmsmf3ZeobyAnvq+AFDoVyOKImGp/GvZoCTr6jToFoz9+pPYbQyf15lw+g==}
-    cpu: [ia32]
-    os: [win32]
-
-  '@rspack/binding-win32-x64-msvc@0.5.9':
-    resolution: {integrity: sha512-3FI/6hgsI/g42r+N2gfzs6k5P18X+3WcmT+VMX4Z3BvEi8L6nj6XlFRb/UOBac30/ohl435eEFVWjmyzdvS7Cw==}
-    cpu: [x64]
-    os: [win32]
-
-  '@rspack/binding-win32-x64-msvc@1.0.10':
-    resolution: {integrity: sha512-1ad9SONsqp6XXxrCHsClnThW7BOrK5PWWslY+J3G0sHsXztSz/s9/CDRXUyJ8vuolpIy10E1Kyk1aV9y+IMs+g==}
-    cpu: [x64]
-    os: [win32]
-
-  '@rspack/binding@0.5.9':
-    resolution: {integrity: sha512-6/+m+V3kf2CPmtB3DPziHdxJVxDi52Y3QRRH6bD5uvUtdS+Y48ICtvwUMREoC3yrZ5wCpe6j7J48iTLYn4toWQ==}
-
-  '@rspack/binding@1.0.10':
-    resolution: {integrity: sha512-ILWPqLl0fS3a76OwQH6SlVIJBST39sc55yp0zwt484sb77khm0JGvJRElCdPuwgaR7JRDdqK23EvW0XIQAvY7A==}
-
-  '@rspack/core@0.5.9':
-    resolution: {integrity: sha512-SNz6PS+LD5AFUnX75m5F1GULHPyoDx8v6A6zf5FQSF4CwZ+lGz47Fa2gRTTcQNXp3Fp+7v5m1q8TrSukV3yHwA==}
-    engines: {node: '>=16.0.0'}
-    peerDependencies:
-      '@swc/helpers': '>=0.5.1'
-    peerDependenciesMeta:
-      '@swc/helpers':
-        optional: true
-
-  '@rspack/core@1.0.10':
-    resolution: {integrity: sha512-Jvj6mzf/aFN3c2E+Lu+3dSz6df2pd79/XOLN9ElA7PIjVua4lVt+dUtrTXqVgoAjaKhZJrIt2WXALYdmv4kkVA==}
-    engines: {node: '>=16.0.0'}
-    peerDependencies:
-      '@swc/helpers': '>=0.5.1'
-    peerDependenciesMeta:
-      '@swc/helpers':
-        optional: true
 
   '@rspack/lite-tapable@1.0.1':
     resolution: {integrity: sha512-VynGOEsVw2s8TAlLf/uESfrgfrq2+rcXB1muPJYBWbsm1Oa6r5qVQhjA5ggM6z/coYPrsVMgovl3Ff7Q7OCp1w==}
@@ -12267,14 +12130,14 @@ packages:
   '@storybook/addon-docs@7.6.20':
     resolution: {integrity: sha512-XNfYRhbxH5JP7B9Lh4W06PtMefNXkfpV39Gaoih5HuqngV3eoSL4RikZYOMkvxRGQ738xc6axySU3+JKcP1OZg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@storybook/addon-essentials@7.6.20':
     resolution: {integrity: sha512-hCupSOiJDeOxJKZSgH0x5Mb2Xqii6mps21g5hpxac1XjhQtmGflShxi/xOHhK3sNqrbgTSbScfpUP3hUlZO/2Q==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@storybook/addon-highlight@7.6.20':
     resolution: {integrity: sha512-7/x7xFdFyqCki5Dm3uBePldUs9l98/WxJ7rTHQuYqlX7kASwyN5iXPzuhmMRUhlMm/6G6xXtLabIpzwf1sFurA==}
@@ -12294,8 +12157,8 @@ packages:
   '@storybook/blocks@7.6.20':
     resolution: {integrity: sha512-xADKGEOJWkG0UD5jbY4mBXRlmj2C+CIupDL0/hpzvLvwobxBMFPKZIkcZIMvGvVnI/Ui+tJxQxLSuJ5QsPthUw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@storybook/builder-manager@7.6.20':
     resolution: {integrity: sha512-e2GzpjLaw6CM/XSmc4qJRzBF8GOoOyotyu3JrSPTYOt4RD8kjUsK4QlismQM1DQRu8i39aIexxmRbiJyD74xzQ==}
@@ -12316,8 +12179,8 @@ packages:
   '@storybook/components@7.6.20':
     resolution: {integrity: sha512-0d8u4m558R+W5V+rseF/+e9JnMciADLXTpsILrG+TBhwECk0MctIWW18bkqkujdCm8kDZr5U2iM/5kS1Noy7Ug==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@storybook/core-client@7.6.20':
     resolution: {integrity: sha512-upQuQQinLmlOPKcT8yqXNtwIucZ4E4qegYZXH5HXRWoLAL6GQtW7sUVSIuFogdki8OXRncr/dz8OA+5yQyYS4w==}
@@ -12382,15 +12245,15 @@ packages:
   '@storybook/react-dom-shim@7.6.20':
     resolution: {integrity: sha512-SRvPDr9VWcS24ByQOVmbfZ655y5LvjXRlsF1I6Pr9YZybLfYbu3L5IicfEHT4A8lMdghzgbPFVQaJez46DTrkg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@storybook/react@7.6.20':
     resolution: {integrity: sha512-i5tKNgUbTNwlqBWGwPveDhh9ktlS0wGtd97A1ZgKZc3vckLizunlAFc7PRC1O/CMq5PTyxbuUb4RvRD2jWKwDA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
       typescript: '*'
     peerDependenciesMeta:
       typescript:
@@ -12405,8 +12268,8 @@ packages:
   '@storybook/theming@7.6.20':
     resolution: {integrity: sha512-iT1pXHkSkd35JsCte6Qbanmprx5flkqtSHC6Gi6Umqoxlg9IjiLPmpHbaIXzoC06DSW93hPj5Zbi1lPlTvRC7Q==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@storybook/types@7.6.20':
     resolution: {integrity: sha512-GncdY3x0LpbhmUAAJwXYtJDUQEwfF175gsjH0/fxPkxPoV7Sef9TM41jQLJW/5+6TnZoCZP/+aJZTJtq3ni23Q==}
@@ -12586,8 +12449,8 @@ packages:
     resolution: {integrity: sha512-sXOGON+WNTh3MLE9rve97ftaZukN3oNf2KjDy7YTx6hcTO2uuLHuCGynMDhFwGw/jYf4OJ2Qk0i4i79qMNNkyw==}
     engines: {node: '>=12'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   '@testing-library/user-event@14.4.3':
     resolution: {integrity: sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==}
@@ -13496,14 +13359,14 @@ packages:
   antd@4.17.2:
     resolution: {integrity: sha512-1/xwj72mzg2ly5byvnxsgucEL5JMrinlsaAr4Y+vjobmTBSI9l9zOVkwwOG8kPIrFkhrzC1I42n6GZKnTwfZmg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   antd@5.3.0:
     resolution: {integrity: sha512-+l8K2AQ+yvIOq9hzWtha3nG3ydFfwN6+fUmSGCqyThFrLPI2Y3IUPXdAXP4aQcYAnu1Q0sLwsTgHRvE2AXfZUw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   any-promise@1.3.0:
     resolution: {integrity: sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A==}
@@ -15836,7 +15699,7 @@ packages:
   flux@4.0.4:
     resolution: {integrity: sha512-NCj3XlayA2UsapRpM7va6wU1+9rE5FIL7qoMcmxWHRzbp0yujihMBm9BBHZ1MDIk5h5o2Bl6eGiCe8rYELAmYw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   focus-lock@0.11.2:
     resolution: {integrity: sha512-pZ2bO++NWLHhiKkgP1bEXHhR1/OjVcSvlCJ98aNJDFeb7H5OOQaO+SKOZle6041O9rv2tmbrO4JzClAvDUHf0g==}
@@ -16149,9 +16012,6 @@ packages:
     resolution: {integrity: sha512-6tfZ91bOr7bOXnK7PRDCGBLa1H4U080YHNaAQ2KsMGlLEzRbk44nsZF2E1IeRc3vtJHPVbKCYgdFbaGO2ljd8g==}
     engines: {node: '>=10.19.0'}
 
-  graceful-fs@4.2.10:
-    resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
-
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
@@ -16401,7 +16261,7 @@ packages:
   htmr@1.0.2:
     resolution: {integrity: sha512-7T9babEHZwECQ2/ouxNPow1uGcKbj/BcbslPGPRxBKIOLNiIrFKq6ELzor7mc4HiexZzdb3izQQLl16bhPR9jw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   http-assert@1.5.0:
     resolution: {integrity: sha512-uPpH7OKX4H25hBmU6G1jWNaqJGpTXxey+YOUizJUAgu0AjLUeC8D73hTrhvDS5D+GJN1DN1+hhc/eF/wpxtp0w==}
@@ -17207,10 +17067,6 @@ packages:
   json-parse-even-better-errors@2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==}
 
-  json-parse-even-better-errors@3.0.2:
-    resolution: {integrity: sha512-fi0NG4bPjCHunUJffmLd0gxssIgkNmArMvis4iNah6Owg1MCJjWhEcDLmsK6iGkJq3tHwbDkTlce70/tmXN4cQ==}
-    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
-
   json-schema-traverse@0.4.1:
     resolution: {integrity: sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==}
 
@@ -17617,7 +17473,7 @@ packages:
     resolution: {integrity: sha512-RrBNcMHiFPcz/iqIj0n3wclzHXjwS7mzjBNWecKKVhNTIxQepIix6Il/wZCn2Cg5Y1ow2Qi84+eJrryFRWBEWw==}
     engines: {node: '>= 10'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   marked@4.2.12:
     resolution: {integrity: sha512-yr8hSKa3Fv4D3jdZmtMMPghgVt6TWbk86WQaWhDloQjRSQhMMYCAro7jP7VDJrjjdV8pxVxMssXS8B8Y5DZ5aw==}
@@ -18043,8 +17899,8 @@ packages:
   nano-css@5.3.5:
     resolution: {integrity: sha512-vSB9X12bbNu4ALBu7nigJgRViZ6ja3OU7CeuiV1zMIbXOdmkLahgtPmh3GBOlDxbKY0CitqlPdOReGlBLSp+yg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
@@ -19230,7 +19086,7 @@ packages:
   qrcode.react@3.1.0:
     resolution: {integrity: sha512-oyF+Urr3oAMUG/OiOuONL3HXM+53wvuH3mtIWQrYmsXoAq0DkvZp2RYUWFSMFtbdOpuS++9v+WAkzNVkMlNW6Q==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   qs@6.11.0:
     resolution: {integrity: sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==}
@@ -19293,193 +19149,193 @@ packages:
   rc-align@4.0.12:
     resolution: {integrity: sha512-3DuwSJp8iC/dgHzwreOQl52soj40LchlfUHtgACOUtwGuoFIOVh6n/sCpfqCU8kO5+iz6qR0YKvjgB8iPdE3aQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-cascader@2.2.1:
     resolution: {integrity: sha512-4saWcwpmxxh5fhUdaDgOLF2gWL8KNxLwWqELX702HNXEt2yU7AixjfvgEORNsnQZleT2W2AaGMkRDeWrwt8fMw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-cascader@3.9.1:
     resolution: {integrity: sha512-wMOQrCWobkaQz3zHEFB82RNBLDkL6tDucOf4VSKQ8Z6SiVBqIfqnEHaEiYvL9GMI3/zStVGqwvOFar/xyOm+xw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-checkbox@2.3.2:
     resolution: {integrity: sha512-afVi1FYiGv1U0JlpNH/UaEXdh6WUJjcWokj/nUN2TgG80bfG+MDdbfHKlLcNNba94mbjy2/SXJ1HDgrOkXGAjg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-collapse@3.1.4:
     resolution: {integrity: sha512-WayrhswKMwuJab9xbqFxXTgV0m6X8uOPEO6zm/GJ5YJiJ/wIh/Dd2VtWeI06HYUEnTFv0HNcYv+zWbB+p6OD2A==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-collapse@3.5.2:
     resolution: {integrity: sha512-/TNiT3DW1t3sUCiVD/DPUYooJZ3BLA93/2rZsB3eM2bGJCCla2X9D2E4tgm7LGMQGy5Atb2lMUn2FQuvQNvavQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-dialog@8.6.0:
     resolution: {integrity: sha512-GSbkfqjqxpZC5/zc+8H332+q5l/DKUhpQr0vdX2uDsxo5K0PhvaMEVjyoJUTkZ3+JstEADQji1PVLVb/2bJeOQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-dialog@9.0.2:
     resolution: {integrity: sha512-s3U+24xWUuB6Bn2Lk/Qt6rufy+uT+QvWkiFhNBcO9APLxcFFczWamaq7x9h8SCuhfc1nHcW4y8NbMsnAjNnWyg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-drawer@4.4.3:
     resolution: {integrity: sha512-FYztwRs3uXnFOIf1hLvFxIQP9MiZJA+0w+Os8dfDh/90X7z/HqP/Yg+noLCIeHEbKln1Tqelv8ymCAN24zPcfQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-drawer@6.1.2:
     resolution: {integrity: sha512-mYsTVT8Amy0LRrpVEv7gI1hOjtfMSO/qHAaCDzFx9QBLnms3cAQLJkaxRWM+Eq99oyLhU/JkgoqTg13bc4ogOQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-dropdown@3.2.5:
     resolution: {integrity: sha512-dVO2eulOSbEf+F4OyhCY5iGiMVhUYY/qeXxL7Ex2jDBt/xc89jU07mNoowV6aWxwVOc70pxEINff0oM2ogjluA==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-dropdown@4.0.1:
     resolution: {integrity: sha512-OdpXuOcme1rm45cR0Jzgfl1otzmU4vuBVb+etXM8vcaULGokAKVpKlw8p6xzspG7jGd/XxShvq+N3VNEfk/l5g==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-field-form@1.21.2:
     resolution: {integrity: sha512-LR/bURt/Tf5g39mb0wtMtQuWn42d/7kEzpzlC5fNC7yaRVmLTtlPP4sBBlaViETM9uZQKLoaB0Pt9Mubhm9gow==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-field-form@1.27.3:
     resolution: {integrity: sha512-HGqxHnmGQgkPApEcikV4qTg3BLPC82uB/cwBDftDt1pYaqitJfSl5TFTTUMKVEJVT5RqJ2Zi68ME1HmIMX2HAw==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-image@5.15.2:
     resolution: {integrity: sha512-QaeWP20v51eGyrkl24PyusTmbMk42A3vGPl7hEa15jcQjECOX36tLtvLk5sjl3vaLQpMskB8BbwiqPsN7I7aow==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-image@5.2.5:
     resolution: {integrity: sha512-qUfZjYIODxO0c8a8P5GeuclYXZjzW4hV/5hyo27XqSFo1DmTCs2HkVeQObkcIk5kNsJtgsj1KoPThVsSc/PXOw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-input-number@7.3.4:
     resolution: {integrity: sha512-W9uqSzuvJUnz8H8vsVY4kx+yK51SsAxNTwr8SNH4G3XqQNocLVmKIibKFRjocnYX1RDHMND9FFbgj2h7E7nvGA==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-input-number@7.4.0:
     resolution: {integrity: sha512-r/Oub/sPYbzqLNUOHnnc9sbCu78a81KX+RCbRwmpvB4W6nptUySbdWS5KHV4Hak5CAE1LAd+wWm5JjvZizG1FA==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-input@0.2.2:
     resolution: {integrity: sha512-xgkVcFgtRO0Hl9hmvslZhObNyxbSpTmy3nR1Tk4XrjjZ9lFJ7GcJBy6ss30Pdb0oX36cHzLN8I7VCjBGeRNB9A==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-mentions@1.6.5:
     resolution: {integrity: sha512-CUU4+q+awG2pA0l/tG2kPB2ytWbKQUkFxVeKwacr63w7crE/yjfzrFXxs/1fxhyEbQUWdAZt/L25QBieukYQ5w==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-mentions@2.0.0:
     resolution: {integrity: sha512-58NSeM6R5MrgYAhR2TH27JgAN7ivp3iBTmty3q6gvrrGHelPMdGxpJ5aH7AIlodCrPWLAm1lT4XoiuI4s9snXA==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-menu@9.0.14:
     resolution: {integrity: sha512-CIox5mZeLDAi32SlHrV7UeSjv7tmJJhwRyxQtZCKt351w3q59XlL4WMFOmtT9gwIfP9h0XoxdBZUMe/xzkp78A==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-menu@9.3.2:
     resolution: {integrity: sha512-h3m45oY1INZyqphGELkdT0uiPnFzxkML8m0VMhJnk2fowtqfiT7F5tJLT3znEVaPIY80vMy1bClCkgq8U91CzQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-menu@9.8.2:
     resolution: {integrity: sha512-EahOJVjLuEnJsThoPN+mGnVm431RzVzDLZWHRS/YnXTQULa7OsgdJa/Y7qXxc3Z5sz8mgT6xYtgpmBXLxrZFaQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-motion@2.6.3:
     resolution: {integrity: sha512-xFLkes3/7VL/J+ah9jJruEW/Akbx5F6jVa2wG5o/ApGKQKSOd5FR3rseHLL9+xtJg4PmCwo6/1tqhDO/T+jFHA==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-notification@4.5.7:
     resolution: {integrity: sha512-zhTGUjBIItbx96SiRu3KVURcLOydLUHZCPpYEn1zvh+re//Tnq/wSxN4FKgp38n4HOgHSVxcLEeSxBMTeBBDdw==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-notification@5.0.2:
     resolution: {integrity: sha512-74wUFiLlyr6lRGEY1m1BaTiDp+0lIT4FRAblMnh9FApyK2JGdsSLbrQ/1rgM7d2N/IX5UIr8kLLW3TdXxFt/jQ==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-overflow@1.2.8:
     resolution: {integrity: sha512-QJ0UItckWPQ37ZL1dMEBAdY1dhfTXFL9k6oTTcyydVwoUNMnMqCGqnRNA98axSr/OeDKqR6DVFyi8eA5RQI/uQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-pagination@3.1.17:
     resolution: {integrity: sha512-/BQ5UxcBnW28vFAcP2hfh+Xg15W0QZn8TWYwdCApchMH1H0CxiaUUcULP8uXcFM1TygcdKWdt3JqsL9cTAfdkQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-pagination@3.2.0:
     resolution: {integrity: sha512-5tIXjB670WwwcAJzAqp2J+cOBS9W3cH/WU1EiYwXljuZ4vtZXKlY2Idq8FZrnYBz8KhN3vwPo9CoV/SJS6SL1w==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-picker@2.5.19:
     resolution: {integrity: sha512-u6myoCu/qiQ0vLbNzSzNrzTQhs7mldArCpPHrEI6OUiifs+IPXmbesqSm0zilJjfzrZJLgYeyyOMSznSlh0GKA==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-picker@3.2.4:
     resolution: {integrity: sha512-AydqPVS12u+46P6DwF0iMi4p5UAAnb64drcA/zUgNXkkB6rQhUwtYP7E75YM0WylT54F3sLhe+WttZynxtsU+Q==}
@@ -19488,8 +19344,8 @@ packages:
       date-fns: '>= 2.x'
       dayjs: '>= 1.x'
       moment: '>= 2.x'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       date-fns:
         optional: true
@@ -19501,197 +19357,197 @@ packages:
   rc-progress@3.1.4:
     resolution: {integrity: sha512-XBAif08eunHssGeIdxMXOmRQRULdHaDdIFENQ578CMb4dyewahmmfJRyab+hw4KH4XssEzzYOkAInTLS7JJG+Q==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-progress@3.4.1:
     resolution: {integrity: sha512-eAFDHXlk8aWpoXl0llrenPMt9qKHQXphxcVsnKs0FHC6eCSk1ebJtyaVjJUzKe0233ogiLDeEFK1Uihz3s67hw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-rate@2.9.2:
     resolution: {integrity: sha512-SaiZFyN8pe0Fgphv8t3+kidlej+cq/EALkAJAc3A0w0XcPaH2L1aggM8bhe1u6GAGuQNAoFvTLjw4qLPGRKV5g==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-resize-observer@1.3.1:
     resolution: {integrity: sha512-iFUdt3NNhflbY3mwySv5CA1TC06zdJ+pfo0oc27xpf4PIOvfZwZGtD9Kz41wGYqC4SLio93RVAirSSpYlV/uYg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-segmented@2.1.2:
     resolution: {integrity: sha512-qGo1bCr83ESXpXVOCXjFe1QJlCAQXyi9KCiy8eX3rIMYlTeJr/ftySIaTnYsitL18SvWf5ZEHsfqIWoX0EMfFQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-select@13.1.1:
     resolution: {integrity: sha512-Oy4L27x5QgGR8902pw0bJVjrTWFnKPKvdLHzJl5pjiA+jM1hpzDfLGg/bY2ntk5ElxxQKZUwbFKUeqfCQU7SrQ==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-select@14.3.0:
     resolution: {integrity: sha512-y+TeAKvAvfAS7WXn4nFU8xtWJ1kLC7SVBvX3UQYtfU+N3BYNpNzHw/3F1Gu34rN2YWTG4hwspwFvDuRtGXytlQ==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-slider@10.1.1:
     resolution: {integrity: sha512-gn8oXazZISEhnmRinI89Z/JD/joAaM35jp+gDtIVSTD/JJMCCBqThqLk1SVJmvtfeiEF/kKaFY0+qt4SDHFUDw==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-slider@9.7.5:
     resolution: {integrity: sha512-LV/MWcXFjco1epPbdw1JlLXlTgmWpB9/Y/P2yinf8Pg3wElHxA9uajN21lJiWtZjf5SCUekfSP6QMJfDo4t1hg==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-steps@4.1.4:
     resolution: {integrity: sha512-qoCqKZWSpkh/b03ASGx1WhpKnuZcRWmvuW+ZUu4mvMdfvFzVxblTwUM+9aBd0mlEUFmt6GW8FXhMpHkK3Uzp3w==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-steps@6.0.0:
     resolution: {integrity: sha512-+KfMZIty40mYCQSDvYbZ1jwnuObLauTiIskT1hL4FFOBHP6ZOr8LK0m143yD3kEN5XKHSEX1DIwCj3AYZpoeNQ==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-switch@3.2.2:
     resolution: {integrity: sha512-+gUJClsZZzvAHGy1vZfnwySxj+MjLlGRyXKXScrtCTcmiYNPzxDFOxdQ/3pK1Kt/0POvwJ/6ALOR8gwdXGhs+A==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-switch@4.0.0:
     resolution: {integrity: sha512-IfrYC99vN0gKaTyjQdqYuADU0eH00SAFHg3jOp8HrmUpJruhV1SohJzrCbPqPraZeX/6X/QKkdLfkdnUub05WA==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-table@7.19.2:
     resolution: {integrity: sha512-NdpnoM50MK02H5/hGOsObfxCvGFUG5cHB9turE5BKJ81T5Ycbq193w5tLhnpILXe//Oanzr47MdMxkUnVGP+qg==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-table@7.31.1:
     resolution: {integrity: sha512-KZPi35aGpv2VaL1Jbc58FBJo063HtKyVjhOFWX4AkBV7tjHHQokMdUoua5E+GPJh6QZUpK/a8PjKa9IZzPLIEA==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-tabs@11.10.8:
     resolution: {integrity: sha512-uK+x+eJ8WM4jiXoqGa+P+JUQX2Wlkj9f0o/5dyOw42B6YLnHJN80uTVcCeAmtA1N0xjPW0GNSZvUm4SU3jAYpw==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-tabs@12.5.6:
     resolution: {integrity: sha512-aArXHzxK7YICxe+622CZ8FlO5coMi8P7E6tXpseCPKm1gdTjUt0LrQK1/AxcrRXZXG3K4QqhlKmET0+cX5DQaQ==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-textarea@0.3.7:
     resolution: {integrity: sha512-yCdZ6binKmAQB13hc/oehh0E/QRwoPP1pjF21aHBxlgXO3RzPF6dUu4LG2R4FZ1zx/fQd2L1faktulrXOM/2rw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-textarea@1.0.1:
     resolution: {integrity: sha512-dtIm96apjJpCUcCeTtbnLGJaVlqbOqVgN0P9z+bqMSi7rcV5QVeUtBnG+jQTGk/uD183Z7jbhc8Dx7G3luDCwg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-tooltip@5.1.1:
     resolution: {integrity: sha512-alt8eGMJulio6+4/uDm7nvV+rJq9bsfxFDCI0ljPdbuoygUscbsMYb6EQgwib/uqsXQUvzk+S7A59uYHmEgmDA==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-tooltip@5.2.2:
     resolution: {integrity: sha512-jtQzU/18S6EI3lhSGoDYhPqNpWajMtS5VV/ld1LwyfrDByQpYmw/LW6U7oFXXLukjfDHQ7Ju705A82PRNFWYhg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-tooltip@6.0.1:
     resolution: {integrity: sha512-MdvPlsD1fDSxKp9+HjXrc/CxLmA/s11QYIh1R7aExxfodKP7CZA++DG1AjrW80F8IUdHYcR43HAm0Y2BYPelHA==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-tree-select@4.7.0:
     resolution: {integrity: sha512-xcc2yPpQieTW6BcRkcKbT1dcAYCQ7ARtkoHlS9EsNdd6xgw9LA6rek6PMed8r/VRMfiKtWV4c4xijW5PI6s4Rw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-tree-select@5.7.0:
     resolution: {integrity: sha512-YGMpBFK9qBkgng2ZhOw7yFiL9VnjHij+uNvP+tiU/QZGdf2XcO8LHXQNUZRGAEzx4PT5lUs6d7kIfkQ9a74bqg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-tree@5.3.8:
     resolution: {integrity: sha512-YuobEryPymqPmHFUOvsoOrYdm24psaj0CrGEUuDUQUeG/nNcTGw6FA2YmF4NsEaNBvNSJUSzwfZnFHrKa/xv0A==}
     engines: {node: '>=10.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-tree@5.7.2:
     resolution: {integrity: sha512-nmnL6qLnfwVckO5zoqKL2I9UhwDqzyCtjITQCkwhimyz1zfuFkG5ZPIXpzD/Guzso94qQA/QrMsvzic5W6QDjg==}
     engines: {node: '>=10.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-trigger@5.3.4:
     resolution: {integrity: sha512-mQv+vas0TwKcjAO2izNPkqR4j86OemLRmvL2nOzdP9OWNWA1ivoTt5hzFqYNW9zACwmTezRiN8bttrC7cZzYSw==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-upload@4.3.4:
     resolution: {integrity: sha512-uVbtHFGNjHG/RyAfm9fluXB6pvArAGyAx8z7XzXXyorEgVIWj6mOlriuDm0XowDHYz4ycNK0nE0oP3cbFnzxiQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-util@5.29.2:
     resolution: {integrity: sha512-xHT9Dr3RD6tyvCibnH10l3mudC6TJjWNr9UDy3CrOGZqTY354OfdwP87ahKNe0b3A1dsysDldvx0SBuswhlOeA==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   rc-virtual-list@3.4.13:
     resolution: {integrity: sha512-cPOVDmcNM7rH6ANotanMDilW/55XnFPw0Jh/GQYtrzZSy3AmWvCnqVNyNC/pgg3lfVmX2994dlzAhuUrd4jG7w==}
     engines: {node: '>=8.x'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   react-base16-styling@0.6.0:
     resolution: {integrity: sha512-yvh/7CArceR/jNATXOKDlvTnPKPmGZz7zsenQ3jUwLzHkNUR0CvY3yGYJbWJ/nnxsL8Sgmt5cO3/SILVuPO6TQ==}
@@ -19702,13 +19558,13 @@ packages:
   react-clientside-effect@1.2.6:
     resolution: {integrity: sha512-XGGGRQAKY+q25Lz9a/4EPqom7WRjz3z9R2k4jhVKA/puQFH/5Nt27vFZYql4m4NVNdUvX8PS3O7r/Zzm7cjUlg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-colorful@5.6.1:
     resolution: {integrity: sha512-1exovf0uGTGyq5mXQT0zgQ80uvj2PCwvF8zY1RN9/vbJVSjSo3fsB/4L3ObbF7u70NduSiK4xu4Y6q1MHoUGEw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   react-devtools-inline@4.28.5:
     resolution: {integrity: sha512-SjXL/nnrLaPWtCb+kLqtSVqO+e1B+V5aC0nXfrMWrEzKgxfJFlaEtpvf9Dc9LaWXlGw1MvJA19L+yNYRzqAq5g==}
@@ -19729,29 +19585,29 @@ packages:
   react-dom@0.0.0-experimental-51ffd3564-20231025:
     resolution: {integrity: sha512-a7RxUzDZLin+HCbNe/LQCn0dIb0ncK+SW9b4bqLW0NK4jlzwVQIXwcErxQYueUGmam4lLOCdeTmdVoAAGPMCCw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-dom@19.0.0-rc-e1ef8c95-20241115:
     resolution: {integrity: sha512-BP8e2bWadv6Y8s32xNX0z06VfAao5Z9UXjMR3+DaO0FcaLuZHoQn3uJROvFoniSZoCMLZkZWYtLFEkEf3UeiYw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-element-to-jsx-string@15.0.0:
     resolution: {integrity: sha512-UDg4lXB6BzlobN60P8fHWVPX3Kyw8ORrTeBtClmIlGdkOOE+GYQSFvmEU5iLLpwp/6v42DINwNcwOhOLfQ//FQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   react-error-boundary@3.1.4:
     resolution: {integrity: sha512-uM9uPzZJTF6wRQORmSrvOIgt4lJ9MC1sNgEOj2XGsDTRE4kmpWxg7ENK9EWNKJRMAOY9z0MuF4yIfl6gp4sotA==}
     engines: {node: '>=10', npm: '>=6'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-error-boundary@4.0.13:
     resolution: {integrity: sha512-b6PwbdSv8XeOSYvjt8LpgpKrZ0yGdtZokYwkwV2wlcZbxgopHX/hgPl5VgpnoVOWd868n1hktM8Qm4b+02MiLQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-fast-compare@3.2.0:
     resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
@@ -19760,7 +19616,7 @@ packages:
     resolution: {integrity: sha512-pSWOQrUmiKLkffPO6BpMXN7SNKXMsuOakl652IBuALAu1esk+IcpJyM+ALcYzPTTFz1rD0R54aB9A4HuP5t1Wg==}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -19768,18 +19624,18 @@ packages:
   react-helmet-async@1.3.0:
     resolution: {integrity: sha512-9jZ57/dAn9t3q6hneQS0wukqC2ENOBgMNVEhb/ZG9ZSxUetzVIw4iAmEU38IaVg3QGYauQPhSeUTuIUtFglWpg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   react-helmet@6.1.0:
     resolution: {integrity: sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-icons@4.11.0:
     resolution: {integrity: sha512-V+4khzYcE5EBk/BvcuYRq6V/osf11ODUM2J8hg2FDSswRrGvqiYUYPRy4OdrWaQOBj4NcpJfmHZLNaD+VH0TyA==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -19800,13 +19656,13 @@ packages:
     resolution: {integrity: sha512-Qe6HKSXrr++n9Y31nkRJ3XvQMATISpqigH1vEKhLwB56+nk5thTP0ITThpjxY6ZG/ubpVq/aEHIcyLP/OPHxeA==}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-json-view@1.21.3:
     resolution: {integrity: sha512-13p8IREj9/x/Ye4WI/JpjhoIwuzEgUAtgJZNBJckfzJt1qyh24BdTm6UQNGnyTq9dapQdrqvquZTo3dz1X6Cjw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   react-lazy-with-preload@2.2.1:
     resolution: {integrity: sha512-ONSb8gizLE5jFpdHAclZ6EAAKuFX2JydnFXPPPjoUImZlLjGtKzyBS8SJgJq7CpLgsGKh9QCZdugJyEEOVC16Q==}
@@ -19817,7 +19673,7 @@ packages:
   react-loadable@5.5.0:
     resolution: {integrity: sha512-C8Aui0ZpMd4KokxRdVAm2bQtI03k2RMRNzOB+IipV3yxFTSVICv7WoUr5L9ALB5BmKO1iHgZtWM8EvYG83otdg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-refresh@0.14.0:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
@@ -19832,7 +19688,7 @@ packages:
     engines: {node: '>=10'}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -19842,7 +19698,7 @@ packages:
     engines: {node: '>=10'}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -19850,58 +19706,58 @@ packages:
   react-router-dom@5.3.4:
     resolution: {integrity: sha512-m4EqFMHv/Ih4kpcBCONHbkT68KoAeHN4p3lAGoNryfHi0dMy0kCzEZakiKRsvg5wHZ/JLrLW8o8KomWiz/qbYQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-router-dom@6.22.0:
     resolution: {integrity: sha512-z2w+M4tH5wlcLmH3BMMOMdrtrJ9T3oJJNsAlBJbwk+8Syxd5WFJ7J5dxMEW0/GEXD1BBis4uXRrNIz3mORr0ag==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   react-router-dom@6.27.0:
     resolution: {integrity: sha512-+bvtFWMC0DgAFrfKXKG9Fc+BcXWRUO1aJIihbB79xaeq0v5UzfvnM5houGUm1Y461WVRcgAQ+Clh5rdb1eCx4g==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   react-router@5.3.4:
     resolution: {integrity: sha512-Ys9K+ppnJah3QuaRiLxk+jDWOR1MekYQrlytiXxC1RyfbdsZkS5pvKAzCCr031xHixZwpnsYNT5xysdFHQaYsA==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-router@6.22.0:
     resolution: {integrity: sha512-q2yemJeg6gw/YixRlRnVx6IRJWZD6fonnfZhN1JIOhV2iJCPeRNSH3V1ISwHf+JWcESzLC3BOLD1T07tmO5dmg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-router@6.27.0:
     resolution: {integrity: sha512-YA+HGZXz4jaAkVoYBE98VQl+nVzI+cVI2Oj/06F5ZM+0u3TgedN9Y9kmMRo2mnkSK2nCpNQn0DVob4HCsY/WLw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-server-dom-webpack@19.0.0-rc-e1ef8c95-20241115:
     resolution: {integrity: sha512-YMvGV3pUHHhE+HXOxK5njG6P82SmOXNMZFGSbxG1PfSTxdhmYdgac/PGmpQygv9EE0rQ6juE9L1OLI16NSkVJA==}
     engines: {node: '>=0.10.0'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
       webpack: ^5.59.0
 
   react-side-effect@2.1.2:
     resolution: {integrity: sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-style-singleton@2.2.1:
     resolution: {integrity: sha512-ZWj0fHEMyWkHzKYUr2Bs/4zU6XLmq9HsgBURm7g5pAVfyn49DgUiNgY2d4lXRlYSiCif9YBGpQleewkcqddc7g==}
     engines: {node: '>=10'}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -19909,31 +19765,31 @@ packages:
   react-syntax-highlighter@15.5.0:
     resolution: {integrity: sha512-+zq2myprEnQmH5yw6Gqc8lD55QHnpKaU8TOcFeC/Lg/MQSs8UknEA0JC4nTZGFAXC2J2Hyj/ijJ7NlabyPi2gg==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-textarea-autosize@8.5.3:
     resolution: {integrity: sha512-XT1024o2pqCuZSuBt9FwHlaDeNtVrtCXu0Rnz88t1jUGheCLa3PhjE1GH8Ctm2axEtvdCl5SUHYschyQ0L5QHQ==}
     engines: {node: '>=10'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   react-transition-group@4.4.5:
     resolution: {integrity: sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   react-universal-interface@0.6.2:
     resolution: {integrity: sha512-dg8yXdcQmvgR13RIlZbTRQOoUrDciFVoSBZILwjE2LFISxZZ8loVJKAkuzswl5js8BHda79bIb2b84ehU8IjXw==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
       tslib: '*'
 
   react-use@17.4.0:
     resolution: {integrity: sha512-TgbNTCA33Wl7xzIJegn1HndB4qTS9u03QUwyNycUnXaweZkE4Kq2SB+Yoxx8qbshkZGYBDvUXbXWRUmQDcZZ/Q==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   react@0.0.0-experimental-51ffd3564-20231025:
     resolution: {integrity: sha512-sehV2ZhmM2XFS1gV4ilpRXm1Vm7L2aCXPsMNtQa3mTKUvfdxpJB8KItGpOW/I7Btzi7b7wT4+vIqoOmOQ3lx5A==}
@@ -20240,7 +20096,7 @@ packages:
     resolution: {integrity: sha512-K2g7kcOdj+cHTi+xvzwdLZ4rdL1nnphJhs9P8VH5sVcoQd1U/FxpNXnEm5ARxhE7qZO0yfqaL74aXwcQH0T0Ig==}
     engines: {node: '>=14'}
     peerDependencies:
-      '@rspack/core': 0.x || 1.x
+      '@rspack/core': /Users/bytedance/Documents/github/rspack/packages/rspack
     peerDependenciesMeta:
       '@rspack/core':
         optional: true
@@ -21087,8 +20943,8 @@ packages:
     resolution: {integrity: sha512-ndETJ9RKaaL6q41B69WudeqLzOpY1A/ET/glXkNZ2T7dPjPqpPCXXQjDFYZWwNnE5co0wX+gTCqx9mfxTmSIPg==}
     engines: {node: '>=10'}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
       react-is: '>= 16.8.0'
 
   stylehacks@6.0.0:
@@ -21145,7 +21001,7 @@ packages:
   suspend-react@0.1.3:
     resolution: {integrity: sha512-aqldKgX9aZqpoDp3e8/BZ8Dm7x1pJl+qI3ZKxDN0i/IQTWUwBx/ManmlVJ3wowqbno6c2bmiIfs+Um6LbsjJyQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   svg-parser@2.0.4:
     resolution: {integrity: sha512-e4hG1hRwoOdRb37cIMSgzNsxyzKfayW6VOflrwvR+/bzrkyxY/31WkbgnQpgtrNp1SdpJvpUAGTa/ZoiPNDuRQ==}
@@ -21793,7 +21649,7 @@ packages:
     engines: {node: '>=10'}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -21801,13 +21657,13 @@ packages:
   use-composed-ref@1.3.0:
     resolution: {integrity: sha512-GLMG0Jc/jiKov/3Ulid1wbv3r54K9HlMW29IWcDFPEqFkSO2nS0MuefWgMJpeHQ9YJeXDL3ZUF+P3jdXlZX/cQ==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   use-isomorphic-layout-effect@1.1.2:
     resolution: {integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -21816,7 +21672,7 @@ packages:
     resolution: {integrity: sha512-xA+AVm/Wlg3e2P/JiItTziwS7FK92LWrDB0p+hgXloIMuVCeJJ8v6f0eeHyPZaJrM+usM1FkFfbNCrJGs8A/zw==}
     peerDependencies:
       '@types/react': '*'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -21824,15 +21680,15 @@ packages:
   use-resize-observer@9.1.0:
     resolution: {integrity: sha512-R25VqO9Wb3asSD4eqtcxk8sJalvIOYBqS8MNZlpDSQ4l4xMQxC/J7Id9HoTqPq8FwULIn0PVW+OAqF2dyYbjow==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
-      react-dom: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
+      react-dom: 19.0.0-rc-e1ef8c95-20241115
 
   use-sidecar@1.1.2:
     resolution: {integrity: sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==}
     engines: {node: '>=10'}
     peerDependencies:
       '@types/react': ^16.9.0 || ^17.0.0 || ^18.0.0
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -21840,7 +21696,7 @@ packages:
   use-sync-external-store@1.2.0:
     resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
     peerDependencies:
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
 
   usertiming@0.1.8:
     resolution: {integrity: sha512-0P7EsAN6Fx/VWFuYaleB1EZZ2UNT8n+lQ1Kdhggo1ZX1vau0Sd6ti3HvKAUWT/2HIXYcgKDUd3XtUrdYdR62MQ==}
@@ -21890,7 +21746,7 @@ packages:
     engines: {node: '>=12.20.0'}
     peerDependencies:
       '@types/react': '>=16.8'
-      react: '19.0.0-rc-e1ef8c95-20241115 '
+      react: 19.0.0-rc-e1ef8c95-20241115
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -22401,17 +22257,8 @@ packages:
     engines: {node: '>=8.0.0'}
     hasBin: true
 
-  zod-validation-error@1.3.1:
-    resolution: {integrity: sha512-cNEXpla+tREtNdAnNKY4xKY1SGOn2yzyuZMu4O0RQylX9apRpUjNcPkEc3uHIAr5Ct7LenjZt6RzjEH6+JsqVQ==}
-    engines: {node: '>=16.0.0'}
-    peerDependencies:
-      zod: ^3.18.0
-
   zod@3.22.3:
     resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
-
-  zod@3.23.8:
-    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
 
   zwitch@1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
@@ -26732,42 +26579,6 @@ snapshots:
       lodash: 4.17.21
       rslog: 1.2.3
 
-  '@module-federation/runtime-tools@0.0.8':
-    dependencies:
-      '@module-federation/runtime': 0.0.8
-      '@module-federation/webpack-bundler-runtime': 0.0.8
-    optional: true
-
-  '@module-federation/runtime-tools@0.5.1':
-    dependencies:
-      '@module-federation/runtime': 0.5.1
-      '@module-federation/webpack-bundler-runtime': 0.5.1
-
-  '@module-federation/runtime@0.0.8':
-    dependencies:
-      '@module-federation/sdk': 0.0.8
-    optional: true
-
-  '@module-federation/runtime@0.5.1':
-    dependencies:
-      '@module-federation/sdk': 0.5.1
-
-  '@module-federation/sdk@0.0.8':
-    optional: true
-
-  '@module-federation/sdk@0.5.1': {}
-
-  '@module-federation/webpack-bundler-runtime@0.0.8':
-    dependencies:
-      '@module-federation/runtime': 0.0.8
-      '@module-federation/sdk': 0.0.8
-    optional: true
-
-  '@module-federation/webpack-bundler-runtime@0.5.1':
-    dependencies:
-      '@module-federation/runtime': 0.5.1
-      '@module-federation/sdk': 0.5.1
-
   '@ndelangen/get-tarball@3.0.9':
     dependencies:
       gunzip-maybe: 1.4.2
@@ -27973,7 +27784,7 @@ snapshots:
 
   '@rsbuild/core@1.0.13':
     dependencies:
-      '@rspack/core': 1.0.10(@swc/helpers@0.5.13)
+      '@rspack/core': link:../../rspack/packages/rspack
       '@rspack/lite-tapable': 1.0.1
       '@swc/helpers': 0.5.13
       core-js: 3.38.1
@@ -27982,7 +27793,7 @@ snapshots:
 
   '@rsbuild/core@1.0.5':
     dependencies:
-      '@rspack/core': 1.0.10(@swc/helpers@0.5.13)
+      '@rspack/core': link:../../rspack/packages/rspack
       '@rspack/lite-tapable': 1.0.1
       '@swc/helpers': 0.5.13
       caniuse-lite: 1.0.30001668
@@ -28221,12 +28032,12 @@ snapshots:
 
   '@rsdoctor/client@0.4.7': {}
 
-  '@rsdoctor/core@0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)':
+  '@rsdoctor/core@0.2.4(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)':
     dependencies:
-      '@rsdoctor/graph': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
-      '@rsdoctor/sdk': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
-      '@rsdoctor/types': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(esbuild@0.17.19)
-      '@rsdoctor/utils': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(esbuild@0.17.19)
+      '@rsdoctor/graph': 0.2.4(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
+      '@rsdoctor/sdk': 0.2.4(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
+      '@rsdoctor/types': 0.2.4(esbuild@0.17.19)
+      '@rsdoctor/utils': 0.2.4(esbuild@0.17.19)
       axios: 1.7.7(debug@4.3.7)
       bytes: 3.1.2
       enhanced-resolve: 5.12.0
@@ -28248,12 +28059,12 @@ snapshots:
       - utf-8-validate
       - webpack-cli
 
-  '@rsdoctor/core@0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))':
+  '@rsdoctor/core@0.4.7(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))':
     dependencies:
-      '@rsdoctor/graph': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
-      '@rsdoctor/sdk': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
-      '@rsdoctor/types': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
-      '@rsdoctor/utils': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/graph': 0.4.7(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/sdk': 0.4.7(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/types': 0.4.7(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/utils': 0.4.7(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
       axios: 1.7.7(debug@4.3.7)
       enhanced-resolve: 5.12.0
       filesize: 10.1.6
@@ -28271,10 +28082,10 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/graph@0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)':
+  '@rsdoctor/graph@0.2.4(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)':
     dependencies:
-      '@rsdoctor/types': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(esbuild@0.17.19)
-      '@rsdoctor/utils': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(esbuild@0.17.19)
+      '@rsdoctor/types': 0.2.4(esbuild@0.17.19)
+      '@rsdoctor/utils': 0.2.4(esbuild@0.17.19)
       lodash: 4.17.21
       socket.io: 4.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       source-map: 0.7.4
@@ -28288,10 +28099,10 @@ snapshots:
       - utf-8-validate
       - webpack-cli
 
-  '@rsdoctor/graph@0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))':
+  '@rsdoctor/graph@0.4.7(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))':
     dependencies:
-      '@rsdoctor/types': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
-      '@rsdoctor/utils': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/types': 0.4.7(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/utils': 0.4.7(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
       lodash: 4.17.21
       socket.io: 4.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       source-map: 0.7.4
@@ -28302,13 +28113,12 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/rspack-plugin@0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)':
+  '@rsdoctor/rspack-plugin@0.2.4(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)':
     dependencies:
-      '@rsdoctor/core': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
-      '@rsdoctor/graph': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
-      '@rsdoctor/sdk': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
-      '@rsdoctor/utils': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(esbuild@0.17.19)
-      '@rspack/core': 1.0.10(@swc/helpers@0.5.13)
+      '@rsdoctor/core': 0.2.4(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
+      '@rsdoctor/graph': 0.2.4(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
+      '@rsdoctor/sdk': 0.2.4(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
+      '@rsdoctor/utils': 0.2.4(esbuild@0.17.19)
       loader-utils: 2.0.4
       lodash: 4.17.21
     transitivePeerDependencies:
@@ -28321,12 +28131,12 @@ snapshots:
       - utf-8-validate
       - webpack-cli
 
-  '@rsdoctor/sdk@0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)':
+  '@rsdoctor/sdk@0.2.4(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)':
     dependencies:
       '@rsdoctor/client': 0.2.4
-      '@rsdoctor/graph': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
-      '@rsdoctor/types': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(esbuild@0.17.19)
-      '@rsdoctor/utils': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(esbuild@0.17.19)
+      '@rsdoctor/graph': 0.2.4(bufferutil@4.0.8)(esbuild@0.17.19)(utf-8-validate@5.0.10)
+      '@rsdoctor/types': 0.2.4(esbuild@0.17.19)
+      '@rsdoctor/utils': 0.2.4(esbuild@0.17.19)
       body-parser: 1.20.1
       cors: 2.8.5
       dayjs: 1.11.6
@@ -28347,12 +28157,12 @@ snapshots:
       - utf-8-validate
       - webpack-cli
 
-  '@rsdoctor/sdk@0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))':
+  '@rsdoctor/sdk@0.4.7(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))':
     dependencies:
       '@rsdoctor/client': 0.4.7
-      '@rsdoctor/graph': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
-      '@rsdoctor/types': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
-      '@rsdoctor/utils': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/graph': 0.4.7(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/types': 0.4.7(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/utils': 0.4.7(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
       '@types/fs-extra': 11.0.4
       body-parser: 1.20.3
       cors: 2.8.5
@@ -28371,50 +28181,44 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/types@0.2.4(@rspack/core@0.5.9(@swc/helpers@0.5.13))(@swc/core@1.3.42)(esbuild@0.17.19)':
+  '@rsdoctor/types@0.2.4(@swc/core@1.3.42)(esbuild@0.17.19)':
     dependencies:
       '@types/connect': 3.4.35
       '@types/estree': 1.0.0
       '@types/tapable': 2.2.2
       '@types/webpack': 5.28.0(@swc/core@1.3.42)(esbuild@0.17.19)
       source-map: 0.7.4
-    optionalDependencies:
-      '@rspack/core': 0.5.9(@swc/helpers@0.5.13)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
       - uglify-js
       - webpack-cli
 
-  '@rsdoctor/types@0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(esbuild@0.17.19)':
+  '@rsdoctor/types@0.2.4(esbuild@0.17.19)':
     dependencies:
       '@types/connect': 3.4.35
       '@types/estree': 1.0.0
       '@types/tapable': 2.2.2
       '@types/webpack': 5.28.0(esbuild@0.17.19)
       source-map: 0.7.4
-    optionalDependencies:
-      '@rspack/core': 1.0.10(@swc/helpers@0.5.13)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
       - uglify-js
       - webpack-cli
 
-  '@rsdoctor/types@0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))':
+  '@rsdoctor/types@0.4.7(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))':
     dependencies:
       '@types/connect': 3.4.38
       '@types/estree': 1.0.5
       '@types/tapable': 2.2.7
       source-map: 0.7.4
       webpack: 5.93.0(@swc/core@1.3.42)(esbuild@0.17.19)
-    optionalDependencies:
-      '@rspack/core': 1.0.10(@swc/helpers@0.5.13)
 
-  '@rsdoctor/utils@0.2.4(@rspack/core@0.5.9(@swc/helpers@0.5.13))(@swc/core@1.3.42)(esbuild@0.17.19)':
+  '@rsdoctor/utils@0.2.4(@swc/core@1.3.42)(esbuild@0.17.19)':
     dependencies:
       '@babel/code-frame': 7.24.2
-      '@rsdoctor/types': 0.2.4(@rspack/core@0.5.9(@swc/helpers@0.5.13))(@swc/core@1.3.42)(esbuild@0.17.19)
+      '@rsdoctor/types': 0.2.4(@swc/core@1.3.42)(esbuild@0.17.19)
       '@types/estree': 1.0.0
       acorn: 8.11.3
       acorn-import-assertions: 1.9.0(acorn@8.11.3)
@@ -28439,10 +28243,10 @@ snapshots:
       - uglify-js
       - webpack-cli
 
-  '@rsdoctor/utils@0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(esbuild@0.17.19)':
+  '@rsdoctor/utils@0.2.4(esbuild@0.17.19)':
     dependencies:
       '@babel/code-frame': 7.24.2
-      '@rsdoctor/types': 0.2.4(@rspack/core@1.0.10(@swc/helpers@0.5.13))(esbuild@0.17.19)
+      '@rsdoctor/types': 0.2.4(esbuild@0.17.19)
       '@types/estree': 1.0.0
       acorn: 8.11.3
       acorn-import-assertions: 1.9.0(acorn@8.11.3)
@@ -28467,10 +28271,10 @@ snapshots:
       - uglify-js
       - webpack-cli
 
-  '@rsdoctor/utils@0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))':
+  '@rsdoctor/utils@0.4.7(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))':
     dependencies:
       '@babel/code-frame': 7.25.7
-      '@rsdoctor/types': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/types': 0.4.7(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
       '@types/estree': 1.0.5
       acorn: 8.12.1
       acorn-import-assertions: 1.9.0(acorn@8.12.1)
@@ -28492,13 +28296,13 @@ snapshots:
       - supports-color
       - webpack
 
-  '@rsdoctor/webpack-plugin@0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))':
+  '@rsdoctor/webpack-plugin@0.4.7(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))':
     dependencies:
-      '@rsdoctor/core': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
-      '@rsdoctor/graph': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
-      '@rsdoctor/sdk': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
-      '@rsdoctor/types': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
-      '@rsdoctor/utils': 0.4.7(@rspack/core@1.0.10(@swc/helpers@0.5.13))(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/core': 0.4.7(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/graph': 0.4.7(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/sdk': 0.4.7(bufferutil@4.0.8)(utf-8-validate@5.0.10)(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/types': 0.4.7(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
+      '@rsdoctor/utils': 0.4.7(webpack@5.93.0(@swc/core@1.3.42)(esbuild@0.17.19))
       fs-extra: 11.2.0
       lodash: 4.17.21
       webpack: 5.93.0(@swc/core@1.3.42)(esbuild@0.17.19)
@@ -28508,113 +28312,6 @@ snapshots:
       - debug
       - supports-color
       - utf-8-validate
-
-  '@rspack/binding-darwin-arm64@0.5.9':
-    optional: true
-
-  '@rspack/binding-darwin-arm64@1.0.10':
-    optional: true
-
-  '@rspack/binding-darwin-x64@0.5.9':
-    optional: true
-
-  '@rspack/binding-darwin-x64@1.0.10':
-    optional: true
-
-  '@rspack/binding-linux-arm64-gnu@0.5.9':
-    optional: true
-
-  '@rspack/binding-linux-arm64-gnu@1.0.10':
-    optional: true
-
-  '@rspack/binding-linux-arm64-musl@0.5.9':
-    optional: true
-
-  '@rspack/binding-linux-arm64-musl@1.0.10':
-    optional: true
-
-  '@rspack/binding-linux-x64-gnu@0.5.9':
-    optional: true
-
-  '@rspack/binding-linux-x64-gnu@1.0.10':
-    optional: true
-
-  '@rspack/binding-linux-x64-musl@0.5.9':
-    optional: true
-
-  '@rspack/binding-linux-x64-musl@1.0.10':
-    optional: true
-
-  '@rspack/binding-win32-arm64-msvc@0.5.9':
-    optional: true
-
-  '@rspack/binding-win32-arm64-msvc@1.0.10':
-    optional: true
-
-  '@rspack/binding-win32-ia32-msvc@0.5.9':
-    optional: true
-
-  '@rspack/binding-win32-ia32-msvc@1.0.10':
-    optional: true
-
-  '@rspack/binding-win32-x64-msvc@0.5.9':
-    optional: true
-
-  '@rspack/binding-win32-x64-msvc@1.0.10':
-    optional: true
-
-  '@rspack/binding@0.5.9':
-    optionalDependencies:
-      '@rspack/binding-darwin-arm64': 0.5.9
-      '@rspack/binding-darwin-x64': 0.5.9
-      '@rspack/binding-linux-arm64-gnu': 0.5.9
-      '@rspack/binding-linux-arm64-musl': 0.5.9
-      '@rspack/binding-linux-x64-gnu': 0.5.9
-      '@rspack/binding-linux-x64-musl': 0.5.9
-      '@rspack/binding-win32-arm64-msvc': 0.5.9
-      '@rspack/binding-win32-ia32-msvc': 0.5.9
-      '@rspack/binding-win32-x64-msvc': 0.5.9
-    optional: true
-
-  '@rspack/binding@1.0.10':
-    optionalDependencies:
-      '@rspack/binding-darwin-arm64': 1.0.10
-      '@rspack/binding-darwin-x64': 1.0.10
-      '@rspack/binding-linux-arm64-gnu': 1.0.10
-      '@rspack/binding-linux-arm64-musl': 1.0.10
-      '@rspack/binding-linux-x64-gnu': 1.0.10
-      '@rspack/binding-linux-x64-musl': 1.0.10
-      '@rspack/binding-win32-arm64-msvc': 1.0.10
-      '@rspack/binding-win32-ia32-msvc': 1.0.10
-      '@rspack/binding-win32-x64-msvc': 1.0.10
-
-  '@rspack/core@0.5.9(@swc/helpers@0.5.13)':
-    dependencies:
-      '@module-federation/runtime-tools': 0.0.8
-      '@rspack/binding': 0.5.9
-      browserslist: 4.23.1
-      enhanced-resolve: 5.12.0
-      events: 3.3.0
-      graceful-fs: 4.2.10
-      json-parse-even-better-errors: 3.0.2
-      neo-async: 2.6.2
-      tapable: 2.2.1
-      watchpack: 2.4.2
-      webpack-sources: 3.2.3
-      zod: 3.23.8
-      zod-validation-error: 1.3.1(zod@3.23.8)
-    optionalDependencies:
-      '@swc/helpers': 0.5.13
-    optional: true
-
-  '@rspack/core@1.0.10(@swc/helpers@0.5.13)':
-    dependencies:
-      '@module-federation/runtime-tools': 0.5.1
-      '@rspack/binding': 1.0.10
-      '@rspack/lite-tapable': 1.0.1
-      caniuse-lite: 1.0.30001668
-    optionalDependencies:
-      '@swc/helpers': 0.5.13
 
   '@rspack/lite-tapable@1.0.1': {}
 
@@ -34037,9 +33734,6 @@ snapshots:
       p-cancelable: 2.1.1
       responselike: 2.0.1
 
-  graceful-fs@4.2.10:
-    optional: true
-
   graceful-fs@4.2.11: {}
 
   graceful-readlink@1.0.1: {}
@@ -35846,9 +35540,6 @@ snapshots:
   json-parse-better-errors@1.0.2: {}
 
   json-parse-even-better-errors@2.3.1: {}
-
-  json-parse-even-better-errors@3.0.2:
-    optional: true
 
   json-schema-traverse@0.4.1: {}
 
@@ -39732,11 +39423,9 @@ snapshots:
 
   rslog@1.2.3: {}
 
-  rspack-manifest-plugin@5.0.1(@rspack/core@1.0.10(@swc/helpers@0.5.13)):
+  rspack-manifest-plugin@5.0.1:
     dependencies:
       '@rspack/lite-tapable': 1.0.1
-    optionalDependencies:
-      '@rspack/core': 1.0.10(@swc/helpers@0.5.13)
 
   rspack-plugin-virtual-module@0.1.13:
     dependencies:
@@ -42392,15 +42081,7 @@ snapshots:
     optionalDependencies:
       commander: 9.5.0
 
-  zod-validation-error@1.3.1(zod@3.23.8):
-    dependencies:
-      zod: 3.23.8
-    optional: true
-
   zod@3.22.3: {}
-
-  zod@3.23.8:
-    optional: true
 
   zwitch@1.0.5: {}
 

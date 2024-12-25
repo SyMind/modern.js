@@ -7,7 +7,6 @@ import {
   getRscBuildInfo,
   sharedData,
 } from '../common';
-import { EntryPlugin } from 'webpack';
 
 export interface RscClientPluginOptions {
   readonly clientManifestFilename?: string;
@@ -35,6 +34,7 @@ export class RscClientPlugin {
 
   apply(compiler: Webpack.Compiler): void {
     const {
+      EntryPlugin,
       // AsyncDependenciesBlock,
       RuntimeGlobals,
       WebpackError,
@@ -202,15 +202,25 @@ export class RscClientPlugin {
                   chunksSet.add(chunk);
                 }
 
-                for (const connection of moduleGraph.getOutgoingConnections(
-                  module,
-                )) {
-                  for (const chunk of chunkGraph.getModuleChunksIterable(
-                    connection.module,
-                  )) {
-                    chunksSet.add(chunk);
+                for (const dep of module.dependencies) {
+                  const refModule = moduleGraph.getModule(dep);
+                  if (refModule) {
+                    for (const chunk of chunkGraph.getModuleChunksIterable(
+                      refModule,
+                    )) {
+                      chunksSet.add(chunk);
+                    }
                   }
                 }
+                // for (const connection of moduleGraph.getOutgoingConnections(
+                //   module,
+                // )) {
+                //   for (const chunk of chunkGraph.getModuleChunksIterable(
+                //     connection.module,
+                //   )) {
+                //     chunksSet.add(chunk);
+                //   }
+                // }
 
                 // chunks is a double indexed array of chunkId / chunkFilename pairs
                 const chunks: (string | number)[] = [];

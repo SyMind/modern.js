@@ -88,24 +88,24 @@ export const sharedData = {
   },
 };
 
+const BUILD_INFO_WEAK_MAP = new WeakMap();
+
 export function setBuildInfo(
   mod: WebpackModule,
   property: Record<string, any>,
 ) {
-  mod.buildInfo = mod.buildInfo || {};
-
-  Object.assign(mod.buildInfo, property);
+  const buildInfo = BUILD_INFO_WEAK_MAP.get(mod) || {};
+  BUILD_INFO_WEAK_MAP.set(mod, Object.assign(buildInfo, property));
 }
+
+const MODERN_RSC_INFO_WEAK_MAP = new WeakMap();
 
 export function setRscBuildInfo(
   mod: WebpackModule,
   property: Record<string, any>,
 ) {
-  mod.buildInfo = mod.buildInfo || {};
-  const rscBuildInfo = mod.buildInfo[MODERN_RSC_INFO] || {};
-
-  Object.assign(rscBuildInfo, property);
-  setBuildInfo(mod, { [MODERN_RSC_INFO]: rscBuildInfo });
+  const rscBuildInfo = MODERN_RSC_INFO_WEAK_MAP.get(mod) || {};
+  MODERN_RSC_INFO_WEAK_MAP.set(mod, Object.assign(rscBuildInfo, property));
 }
 
 export function removeRscBuildInfo(mod: WebpackModule) {
@@ -113,7 +113,7 @@ export function removeRscBuildInfo(mod: WebpackModule) {
 }
 
 export function getRscBuildInfo(mod: WebpackModule) {
-  return mod.buildInfo?.[MODERN_RSC_INFO] || undefined;
+  return MODERN_RSC_INFO_WEAK_MAP.get(mod);
 }
 
 export function isCssModule(mod: WebpackModule) {

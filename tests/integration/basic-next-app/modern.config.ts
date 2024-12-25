@@ -88,6 +88,10 @@ export default applyBaseConfig({
         });
 
         const jsRule = chain.module.rule('js');
+
+        const swcUse = jsRule.use('swc');
+        const swcOptions = swcUse.get('options');
+
         const babelUse = jsRule.use('babel');
         const babelLoaderPath = require.resolve('babel-loader', {
           paths: [
@@ -115,9 +119,12 @@ export default applyBaseConfig({
             serverReferencesMap,
           })
           .end()
-          .use('babel')
-          .loader(babelLoaderPath)
-          .options(babelOptions)
+          // .use('babel')
+          // .loader(babelLoaderPath)
+          // .options(babelOptions)
+          .use('swc')
+          .loader('builtin:swc-loader')
+          .options(swcOptions)
           .end()
           .end()
           .oneOf('rsc-ssr')
@@ -129,9 +136,12 @@ export default applyBaseConfig({
             serverReferencesMap,
           })
           .end()
-          .use('babel')
-          .loader(babelLoaderPath)
-          .options(babelOptions)
+          // .use('babel')
+          // .loader(babelLoaderPath)
+          // .options(babelOptions)
+          .use('swc')
+          .loader('builtin:swc-loader')
+          .options(swcOptions)
           .end()
           .end()
           .oneOf('general-js')
