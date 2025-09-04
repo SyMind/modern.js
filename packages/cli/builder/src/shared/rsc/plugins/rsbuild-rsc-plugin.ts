@@ -5,6 +5,7 @@ import { logger } from '@rsbuild/core';
 import { rspackRscLayerName } from '../common';
 import { RspackRscClientPlugin } from './rspack-rsc-client-plugin';
 import { RscServerPlugin as RspackRscServerPlugin } from './rspack-rsc-server-plugin';
+import ClientReferenceManifestPlugin from './client-references-manifest-plugin';
 
 const CSS_RULE_NAMES = ['less', 'css', 'scss', 'sass'];
 
@@ -190,6 +191,7 @@ export const rsbuildRscPlugin = ({
         const addRscClientPlugin = () => {
           const ClientPlugin = RspackRscClientPlugin;
           chain.plugin('rsc-client-plugin').use(ClientPlugin);
+          chain.plugin('rsc-client-reference-manifest-plugin').use(ClientReferenceManifestPlugin);
         };
 
         if (isServer) {

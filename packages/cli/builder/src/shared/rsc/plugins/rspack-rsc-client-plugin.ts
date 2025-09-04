@@ -1,5 +1,6 @@
 import path from 'path';
 import type { Rspack } from '@rsbuild/core';
+import { stringify } from 'querystring'
 import {
   type ClientManifest,
   type ClientReferencesMap,
@@ -85,18 +86,20 @@ export class RspackRscClientPlugin {
       callback: (err: any | null) => void,
     ) => {
       const promises = [];
-      [...this.clientReferencesMap.keys()].forEach((resourcePath, index) => {
-        const entries = compilation.entries.entries();
-
-        for (const [entryName, entry] of entries) {
-          const runtimeName = entry.options.runtime || entryName;
-          if (hasExtension(entryName)) {
+      const entries = compilation.entries.entries();
+      for (const [entryName, entry] of entries) {
+        if (hasExtension(entryName)) {
             continue;
-          }
-
-          const dependency = EntryPlugin.createDependency(resourcePath);
-
-          promises.push(
+        }
+        const modules = Array.from(this.clientReferencesMap.keys())
+        const clientEntryLoader = require.resolve("../client-entry-loader")
+        const dependency = EntryPlugin.createDependency(`${clientEntryLoader}?${
+          stringify({
+            modules
+          })
+        }!`);
+        const runtimeName = entry.options.runtime || entryName;
+        promises.push(
             new Promise((resolve, reject) => {
               compilation.addInclude(
                 compiler.context,
@@ -118,8 +121,22 @@ export class RspackRscClientPlugin {
               );
             }),
           );
-        }
-      });
+      }
+      // [...this.clientReferencesMap.keys()].forEach((resourcePath, index) => {
+      //   const entries = compilation.entries.entries();
+
+      //   for (const [entryName, entry] of entries) {
+      //     const runtimeName = entry.options.runtime || entryName;
+      //     if (hasExtension(entryName)) {
+      //       continue;
+      //     }
+
+      //     const clientEntryLoader = require.resolve("../client-entry-loader")
+      //     const dependency = EntryPlugin.createDependency(`${clientEntryLoader}?${resourcePath}`);
+
+
+      //   }
+      // });
 
       if (this.styles && this.styles.size > 0) {
         for (const style of this.styles) {
@@ -291,10 +308,10 @@ export class RspackRscClientPlugin {
             }
           }
 
-          compilation.emitAsset(
-            this.clientManifestFilename,
-            new RawSource(JSON.stringify(clientManifest, null, 2), false),
-          );
+          // compilation.emitAsset(
+          //   this.clientManifestFilename,
+          //   new RawSource(JSON.stringify(clientManifest, null, 2), false),
+          // );
 
           const { crossOriginLoading, publicPath = `` } =
             compilation.outputOptions;
@@ -321,10 +338,10 @@ export class RspackRscClientPlugin {
             }
           }
 
-          compilation.emitAsset(
-            this.ssrManifestFilename,
-            new RawSource(JSON.stringify(ssrManifest, null, 2), false),
-          );
+          // compilation.emitAsset(
+          //   this.ssrManifestFilename,
+          //   new RawSource(JSON.stringify(ssrManifest, null, 2), false),
+          // );
         });
       },
     );

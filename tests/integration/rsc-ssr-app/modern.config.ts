@@ -1,5 +1,6 @@
 import path from 'path';
 import { applyBaseConfig } from '../../utils/applyBaseConfig';
+import fs from 'fs';
 
 export default applyBaseConfig({
   runtime: {
